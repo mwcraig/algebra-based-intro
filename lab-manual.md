@@ -45,13 +45,12 @@ You are responsible for all lab work. It is a good idea to save data and lab sum
 
 You will be using the universal lab interface (ULI) LabPro units with the LoggerPro software (version 3.8 or newer). Every lab station is equipped with basic equipment
 
-- .Motion Detector
-
-- .Force Sensors (2x)
-- .Carts (2x)
-- .Track with associated mounting equipment (stands etc.)
-- .Masses
-- .Scissors, markers, colored pencils, ruler and protractor
+- Motion Detector
+- Force Sensors (2x)
+- Carts (2x)
+- Track with associated mounting equipment (stands etc.)
+- Masses
+- Scissors, markers, colored pencils, ruler and protractor
 
 If you do not know how to use a particular piece of equipment consult the manuals (online), an instructor or another group. 
 
@@ -71,24 +70,24 @@ You and your lab group are checked and evaluated on your C-level lab during the 
 
 Group lab summaries are turned in for the B-level and A-level. Lab summaries are short – typically one page consisting of a graph with an explanation. A quality graph has
 
-- .appropriate labels and error bars 
-- .a best fit curve showing the trend or relationship between variables. 
+- appropriate labels and error bars 
+- a best fit curve showing the trend or relationship between variables. 
 
 A good explanation will include
 
-- .a 1-2 sentence description of what you did to get the plot (what experiment)
-- .a description of what the plot says/means
-- .what you expect the plot to look like, and
-- .why you expect the plot to look like it does (or why you expect it to look different)
-- .key words from the physics concepts being explored used in each of the above 3 points
-- .a discussion of how you assessed uncertainties in your measurements or calculations
+- a 1-2 sentence description of what you did to get the plot (what experiment)
+- a description of what the plot says/means
+- what you expect the plot to look like, and
+- why you expect the plot to look like it does (or why you expect it to look different)
+- key words from the physics concepts being explored used in each of the above 3 points
+- a discussion of how you assessed uncertainties in your measurements or calculations
 
 
 
 A good lab summary does **not** need
 
-- .an introduction describing or discussing the purpose of the activity
-- .a section describing your measurement methods, though you may want to mention your methods (briefly!) when discussing your uncertainties
+- an introduction describing or discussing the purpose of the activity
+- a section describing your measurement methods, though you may want to mention your methods (briefly!) when discussing your uncertainties
 
 If summaries are turned in early you may resubmit corrected summaries to address instructor critiques (please attach the old summary to your new submission). 
 
@@ -118,13 +117,13 @@ Each level will be graded on the following scale:
 
 The purpose of the lab summaries is to give you and your group prompt feedback. This lab structure allows gives you more control over your learning. 
 
-- .A group must receive a 3 at the C-level to receive credit for B-level work
-- .A student must receive a 2 at the B-level to receive credit for A-level work
-- .The lab score is weighted towards the C-level. For example, if you had a 4 on C-level, a 3 on B-level, and a 4 on A-level, your score would be 96%. If you had a 3 on C-level, a 4 on B-level, and a 4 on A-level, your score would be 94%.
-- .A-level activities often require time outside of lab to complete.
-- .There is no credit given for missed labs.
-- .You are expected to come to lab with a conceptual diagram and ideas already written in your lab journal. You will lose a C-level point if you are not prepared. 
-- .The percent lab score is given by [5\*(C)+3\*(B)+2\*(A)+42]/82 \*100%. The following table gives the calculated lab percentage given different points earned for the C-level, B-level and A-level lab components.
+- A group must receive a 3 at the C-level to receive credit for B-level work
+- A student must receive a 2 at the B-level to receive credit for A-level work
+- The lab score is weighted towards the C-level. For example, if you had a 4 on C-level, a 3 on B-level, and a 4 on A-level, your score would be 96%. If you had a 3 on C-level, a 4 on B-level, and a 4 on A-level, your score would be 94%.
+- A-level activities often require time outside of lab to complete.
+- There is no credit given for missed labs.
+- You are expected to come to lab with a conceptual diagram and ideas already written in your lab journal. You will lose a C-level point if you are not prepared. 
+- The percent lab score is given by [5\*(C)+3\*(B)+2\*(A)+42]/82 \*100%. The following table gives the calculated lab percentage given different points earned for the C-level, B-level and A-level lab components.
 
 .
 
@@ -263,41 +262,41 @@ Note: The exam/topic dates are subject to change, except for the Final.
 
 ### Additional Equipment
 
-- .Logger Pro Manual
-- .Meter sticks
+- Logger Pro Manual
+- Meter sticks
 
 ### Objectives
 
 Become familiar with the following equipment and methods:
 
-- .ABC Lab structure
+- ABC Lab structure
 
-- .Logger Pro, the computer software we will be using throughout the semester
-- .Measurements and error calculations expected 
+- Logger Pro, the computer software we will be using throughout the semester
+- Measurements and error calculations expected 
 
 ### Topics:
 
-- .ABC Lab structure
-  - .Expectations
-  - .Deadlines
-  - .C level, B level, A level
-  - .Grading/Grades
+- ABC Lab structure
+  - Expectations
+  - Deadlines
+  - C level, B level, A level
+  - Grading/Grades
 
-- .Intro to Logger Pro
-  - .Logger Pro Manual
-  - .Manual Columns
-  - .Calculated Columns
-  - .Curve Fits
-  - .Region of Interest (ROI)
-  - .Statistics
-  - .Adding error bars to graphs
-  - .CNTRL R
+- Intro to Logger Pro
+  - Logger Pro Manual
+  - Manual Columns
+  - Calculated Columns
+  - Curve Fits
+  - Region of Interest (ROI)
+  - Statistics
+  - Adding error bars to graphs
+  - CNTRL R
 
-- .Measurements
-  - .Precision
-  - .Uncertainty/Error and "significantly different" values
-  - .Measuring increments smaller than your instrument can
-  - .Plots and "good" experiments
+- Measurements
+  - Precision
+  - Uncertainty/Error and "significantly different" values
+  - Measuring increments smaller than your instrument can
+  - Plots and "good" experiments
 
 ### Conceptual (C-level) DONE BEFORE LAB: Uncertainty/Error and "Significantly Different"
 
@@ -328,8 +327,8 @@ Solution:
 1. a)The best values are |3.2-1.25|=1.97 s apart.
 2. b)The larger uncertainty is 1.9 s. 
 3. c)The best values are therefore approximately one error bar apart. Applying the rule above, since the values are less than three error bars apart we would say the values are not significantly different, or that they "agree within experimental uncertainty"!
-  - .Are the values 7.210.01 m and 7.290.01 m significantly different? Why? Sketch the error bars.
-  - .Do the values 0.250.12 m and 0.450.02 m agree within uncertainty? Why? Sketch the error bars.
+  - Are the values 7.210.01 m and 7.290.01 m significantly different? Why? Sketch the error bars.
+  - Do the values 0.250.12 m and 0.450.02 m agree within uncertainty? Why? Sketch the error bars.
 
 **Uncertainty in sensor measurements – DONE IN LAB**
 
@@ -341,14 +340,14 @@ Measure your femur (in cm) on yourself and record on your chart and on the board
 
 Create a plot in LoggerPro (NOT Excel!) of your measured femur lengths vs measured heights. To do this you will need to:
 
-- .Create four "Manual Columns" in LoggerPro, one for each of the Femur length, person's height, and the uncertainty for each of those measurements.
-- .Insert a plot, and choose what columns are on each axis (by clicking on the label on each axis).
-- .Create a "Calculated Column", which gives the "predicted" using the measured lengths of the bones. Do your predicted heights agree with your measured heights?.
-- .Perform a "curve fit" to your data. Look carefully at all of the types of curves you can use. What type makes the most sense in this situation?
-- .Do the values in your fit agree with the model in the table on the following page?
-- .Why do male and female measurements need to be analyzed separately?
-- .Why should a forensic anthropologist use more than one bone (if possible) to determine the height of an individual?
-- .
+- Create four "Manual Columns" in LoggerPro, one for each of the Femur length, person's height, and the uncertainty for each of those measurements.
+- Insert a plot, and choose what columns are on each axis (by clicking on the label on each axis).
+- Create a "Calculated Column", which gives the "predicted" using the measured lengths of the bones. Do your predicted heights agree with your measured heights?.
+- Perform a "curve fit" to your data. Look carefully at all of the types of curves you can use. What type makes the most sense in this situation?
+- Do the values in your fit agree with the model in the table on the following page?
+- Why do male and female measurements need to be analyzed separately?
+- Why should a forensic anthropologist use more than one bone (if possible) to determine the height of an individual?
+- 
 
 | Ind. | Femur Manual Column | Femur Error Manual Column | Actual Height Manual Column | Actual Height Error Manual Column | Est. Height Calculated Column |
 | --- | --- | --- | --- | --- | --- |
@@ -391,117 +390,117 @@ Create a plot in LoggerPro (NOT Excel!) of your measured femur lengths vs measur
 
 ### Additional Equipment
 
-- .Various spherical objects (tennis balls, ping-pong balls, etc.)
+- Various spherical objects (tennis balls, ping-pong balls, etc.)
 
 ### Objective
 
 Data Collection
 
-- .Using the computer probes
-  - .Connect and configure sonic motion detector
+- Using the computer probes
+  - Connect and configure sonic motion detector
 
-- .Graphing position, velocity, and acceleration as a function of time
+- Graphing position, velocity, and acceleration as a function of time
 
 Lab Skills
 
 - 
-  - .Uncertainty propagation
-  - .Measurement Precision
+  - Uncertainty propagation
+  - Measurement Precision
 
-- .Significant Figures
-- .Agreement in measurements based on uncertainty
+- Significant Figures
+- Agreement in measurements based on uncertainty
 
 Physics Concepts
 
-- .Understand the relationships between position, velocity, and acceleration
-- .Interpret plots of position, velocity, and acceleration for a variety of motions
+- Understand the relationships between position, velocity, and acceleration
+- Interpret plots of position, velocity, and acceleration for a variety of motions
 
 ### Conceptual (C-level) DONE BEFORE LAB
 
 Imagine you are watching someone bike down the street at a constant rate.
 
-- .Describe in words the velocity and position as a function of time for the bike.
-- .Draw graphs of both the position and velocity as a function of time for the bike.
-- .Test your solution using the on-line simulation ("Moving Man") http://phet.colorado.edu/en/simulation/moving-man
+- Describe in words the velocity and position as a function of time for the bike.
+- Draw graphs of both the position and velocity as a function of time for the bike.
+- Test your solution using the on-line simulation ("Moving Man") http://phet.colorado.edu/en/simulation/moving-man
 
 Simulation:
 
-- .Can you create a "W" in the position vs time graph? How do you have to move the man? Use words such as "speed up", "slow down", "constant speed", "turn around", etc.
-- .Can you create a "W" in the velocity vs time graph? How do you have to move the man?
+- Can you create a "W" in the position vs time graph? How do you have to move the man? Use words such as "speed up", "slow down", "constant speed", "turn around", etc.
+- Can you create a "W" in the velocity vs time graph? How do you have to move the man?
 
 Explorations (Done In Lab):
 
-- .Use the motion detector to plot your movements, try to create a "W" in the position vs time plot. 
-- .Try to make your position vs time plot look like the letter "N". Is there a part of the letter that is difficult? What type of motion is needed to produce this part of the letter?
+- Use the motion detector to plot your movements, try to create a "W" in the position vs time plot. 
+- Try to make your position vs time plot look like the letter "N". Is there a part of the letter that is difficult? What type of motion is needed to produce this part of the letter?
 
 ### Basic Lab (B-level)
 
-- .For at least two different speeds, graph the position as a function of time and velocity as a function of time for the cart on a flat track (this means 4 plots!) by giving the cart a brief push and letting go.
-- .Clearly mark on your graph when you are touching the object. The region of interest (ROI) is the time when you are not touching the object.
-- .What is the shape of the position as a function of time curve for an object moving horizontally (with no outside pushes)? Compare to the shape of the velocity vs. time curves.
-- .What property of the position vs time plot should the average value of the velocity plot match up with? Compare these two values. Remember from Lab 1, by "compare" we mean "check if two results agree within each other's uncertainty".
-- .For at least two different inclines, graph the position as a function of time and velocity as a function of time for a cart moving on the inclined track. 
-- .Clearly mark on your graph when you are touching the object.
-- .Compare these plots to the ones where the cart was on the flat track, and note any differences.
-- .What property of the velocity vs time plot should the average value of the acceleration plot match up with? Compare these two values.
+- For at least two different speeds, graph the position as a function of time and velocity as a function of time for the cart on a flat track (this means 4 plots!) by giving the cart a brief push and letting go.
+- Clearly mark on your graph when you are touching the object. The region of interest (ROI) is the time when you are not touching the object.
+- What is the shape of the position as a function of time curve for an object moving horizontally (with no outside pushes)? Compare to the shape of the velocity vs. time curves.
+- What property of the position vs time plot should the average value of the velocity plot match up with? Compare these two values. Remember from Lab 1, by "compare" we mean "check if two results agree within each other's uncertainty".
+- For at least two different inclines, graph the position as a function of time and velocity as a function of time for a cart moving on the inclined track. 
+- Clearly mark on your graph when you are touching the object.
+- Compare these plots to the ones where the cart was on the flat track, and note any differences.
+- What property of the velocity vs time plot should the average value of the acceleration plot match up with? Compare these two values.
 
 ### Advanced/Extended Lab Ideas (A-level) (Choose ONE)
 
 Note: An advanced lab includes a quantitative component with error analysis. The exact question(s) explored is your choice but it should relate to the basic lab.
 
-- .Use the "integration" feature to find the area under curve in some region of your acceleration plot. 
+- Use the "integration" feature to find the area under curve in some region of your acceleration plot. 
   - .What are the units of this area? Explain why the area has these units.
   - .What property of the velocity plot should the area match up with? Compare these two values, and do this for at least 5 regions!
 
-- .Use the "integration" feature to find the area under curve in some region of your velocity plot. 
+- Use the "integration" feature to find the area under curve in some region of your velocity plot. 
   - .What are the units of this area? Explain why the area has these units.
   - .What property of the position plot should the area match up with? Compare these two values, and do this for at least 5 regions!
 
-- .Vary the angle of the track and graph the position and velocity of the cart as a function of time. Try this for a variety of angles. Do you notice a pattern? 
-- .Looking at your plots, when can you tell when something is pushing the object? What evidence do you have for an external "push" for an object not moving horizontally?
-- .Propose and carry out an experiment on something you are curious about (get your lab instructor's approval first).
+- Vary the angle of the track and graph the position and velocity of the cart as a function of time. Try this for a variety of angles. Do you notice a pattern? 
+- Looking at your plots, when can you tell when something is pushing the object? What evidence do you have for an external "push" for an object not moving horizontally?
+- Propose and carry out an experiment on something you are curious about (get your lab instructor's approval first).
 
 ### Additional Equipment
 
-- .Various objects and fan cart 
+- Various objects and fan cart 
 
 ### Objective
 
 Data collection
 
-- .Refine techniques for using computer probes 
-- .Video analysis in Logger Pro
+- Refine techniques for using computer probes 
+- Video analysis in Logger Pro
 
 Lab Skills
 
 - 
-  - .Uncertainty propagation
-  - .Measurement Precision
-  - .Significant figures
+  - Uncertainty propagation
+  - Measurement Precision
+  - Significant figures
 
-- .Graph measured quantities with error bars.
-- .Identify regions of interest (relevant portions of motion)
-- .Compare related quantities on different graphs 
-- .Agreement in measurements based on uncertainty
+- Graph measured quantities with error bars.
+- Identify regions of interest (relevant portions of motion)
+- Compare related quantities on different graphs 
+- Agreement in measurements based on uncertainty
 
 Physics Concepts
 
-- .Vector components, addition and subtraction
-- .Equations of motion for constant acceleration
+- Vector components, addition and subtraction
+- Equations of motion for constant acceleration
 
-- .Understand the relationships between position, velocity, and acceleration
-- .Interpret plots of position, velocity, and acceleration for a variety of motions
+- Understand the relationships between position, velocity, and acceleration
+- Interpret plots of position, velocity, and acceleration for a variety of motions
 
 ### Conceptual (C-Level) DONE BEFORE LAB
 
 You throw a heavy object off of a flat roof at an angle of approximately 45 degrees above the horizontal. Sketch the position, velocity and acceleration as a function of time in both the horizontal and vertical directions (this means you should have **6** plots!).
 
-- .How would these graphs change if the object was much less massive but you threw it with the same velocity? State the reason for any changes (or why they won't change), and sketch the new plots in a different color (on top of the old ones).
+- How would these graphs change if the object was much less massive but you threw it with the same velocity? State the reason for any changes (or why they won't change), and sketch the new plots in a different color (on top of the old ones).
 
 Simulation: 
 
-- .Check your understanding by trying to hit a target with a projectile fired at different angles. http://phet.colorado.edu/en/simulation/projectile-motion
-- .Examine the velocity (green) and acceleration (blue) vectors for a particle in 2D. Run the linear and circular motion examples. http://phet.colorado.edu/en/simulation/motion-2d
+- Check your understanding by trying to hit a target with a projectile fired at different angles. http://phet.colorado.edu/en/simulation/projectile-motion
+- Examine the velocity (green) and acceleration (blue) vectors for a particle in 2D. Run the linear and circular motion examples. http://phet.colorado.edu/en/simulation/motion-2d
   - .What happens to the velocity vector when the acceleration vector points in the same direction?
   - .What happens to the velocity vector when the acceleration vector points in the opposite direction?
   - .What happens to the velocity vector when the acceleration vector is perpendicular to the velocity vector?
@@ -510,47 +509,47 @@ Simulation:
 
 Using LoggerPro, analyze the motion of an object (insert movie "basketball shot"). 
 
-- .Produce graphs of the position, velocity and acceleration as a function of time in both the horizontal and vertical directions. 
+- Produce graphs of the position, velocity and acceleration as a function of time in both the horizontal and vertical directions. 
 
-- .Find the horizontal velocity from position vs time graphs and compare to average velocity.
-- .Find the vertical acceleration from velocity vs time graphs and compare to average acceleration.
+- Find the horizontal velocity from position vs time graphs and compare to average velocity.
+- Find the vertical acceleration from velocity vs time graphs and compare to average acceleration.
 
 ### Advanced/Extended Lab Ideas (A-level) (Choose ONE)
 
-- .Graph the acceleration as a function of mass for a cart traveling down an incline. HINT: You will want to have at least 5 data points on a single plot.
-- .Pick another variable and determine how it affects an object's velocity, acceleration or position
-- .Use the "integration" feature to find the area under curve in some region of your acceleration plot. 
+- Graph the acceleration as a function of mass for a cart traveling down an incline. HINT: You will want to have at least 5 data points on a single plot.
+- Pick another variable and determine how it affects an object's velocity, acceleration or position
+- Use the "integration" feature to find the area under curve in some region of your acceleration plot. 
   - .What are the units of this area? Explain why the area has these units.
   - .What property of the velocity plot should the area match up with? Compare these two values, and do this for at least 5 regions!
 
-- .Use the "integration" feature to find the area under curve in some region of your velocity plot. 
+- Use the "integration" feature to find the area under curve in some region of your velocity plot. 
   - .What are the units of this area? Explain why the area has these units.
   - .What property of the position plot should the area match up with? Compare these two values, and do this for at least 5 regions!
 
-- .Experimentally determine how a ball's horizontal and vertical velocities change after a bounce (use the video!)
-- .Propose and carry out an experiment on something you are curious about (get your lab instructor's approval first)
+- Experimentally determine how a ball's horizontal and vertical velocities change after a bounce (use the video!)
+- Propose and carry out an experiment on something you are curious about (get your lab instructor's approval first)
 
 ### Additional Equipment
 
-- .Force table with three pulley clamps
-- .Various hooked weights
+- Force table with three pulley clamps
+- Various hooked weights
 
 ### Objectives
 
 Lab Skills
 
 - 
-  - .Uncertainty propagation
-  - .Measurement Precision
-  - .Significant figures
+  - Uncertainty propagation
+  - Measurement Precision
+  - Significant figures
 
-- .Agreement in measurements based on uncertainty
+- Agreement in measurements based on uncertainty
 
 Physics Concepts
 
-- .Adding and subtracting forces as vectors in 2 dimensions
-- .Applying Newton's 2nd law to situations of static equilibrium
-- .Drawing and interpreting free-body diagrams
+- Adding and subtracting forces as vectors in 2 dimensions
+- Applying Newton's 2nd law to situations of static equilibrium
+- Drawing and interpreting free-body diagrams
 
 ### Conceptual (C-Level) DONE BEFORE LAB
 
@@ -569,123 +568,123 @@ Lingual braces are braces attached on the inside of the teeth, and are considere
 
 You will be experimentally checking your answer to the C-Level lab using the Force Table provided to you.
 
-- .You need to set up an appropriate "scale". Though mass (kg or g) and weight (N) are not the same thing, the weight of an object is proportional to its mass. As an example, you may let a mass of 120 g "represent" 1.2 N. Be sure to include your scale in your report, as well as the angles and masses set up on the table.
-- .Check your solution by setting up the forces on the force table and see if they balance out. Can you remove the central pin and have your three forces hold the ring stationary?
-- .Using your force table setup, experimentally determine the uncertainty in the measured force of the gums on the tooth. As a group, try to come up with at least 2 ways to estimate the uncertainty. Pick one and record your best value and uncertainty for this quantity in the appropriate way.
+- You need to set up an appropriate "scale". Though mass (kg or g) and weight (N) are not the same thing, the weight of an object is proportional to its mass. As an example, you may let a mass of 120 g "represent" 1.2 N. Be sure to include your scale in your report, as well as the angles and masses set up on the table.
+- Check your solution by setting up the forces on the force table and see if they balance out. Can you remove the central pin and have your three forces hold the ring stationary?
+- Using your force table setup, experimentally determine the uncertainty in the measured force of the gums on the tooth. As a group, try to come up with at least 2 ways to estimate the uncertainty. Pick one and record your best value and uncertainty for this quantity in the appropriate way.
 
-- .Determine whether your theoretical value and experimental value are in agreement. As always, be sure to explain your answer.
+- Determine whether your theoretical value and experimental value are in agreement. As always, be sure to explain your answer.
 
 ### Advanced/Extended Lab Ideas (A-level):
 
-- .Move one of the masses by 30 degrees and experimentally determine the new force (a fourth weight) needed to bring the system into equilibrium again. Compare your result with a theoretical prediction.
+- Move one of the masses by 30 degrees and experimentally determine the new force (a fourth weight) needed to bring the system into equilibrium again. Compare your result with a theoretical prediction.
 
-- .Propose and carry out an experiment on something you are curious about (get your lab instructor's approval first)
+- Propose and carry out an experiment on something you are curious about (get your lab instructor's approval first)
 
 ### Additional Equipment
 
-- .Track mounted pulley
+- Track mounted pulley
 
 ### Objective
 
 Data Collection
 
-- .Setup and calibrate force sensors
+- Setup and calibrate force sensors
 
 Lab Skills
 
-- .Uncertainty propagation
-- .Measurement Precision
-- .Significant figures
-- .Graph measured quantities with error bars
-- .Fit lines and/or find averages in regions of interest
-- .Determine acceleration from x(t) and v(t) graphs
+- Uncertainty propagation
+- Measurement Precision
+- Significant figures
+- Graph measured quantities with error bars
+- Fit lines and/or find averages in regions of interest
+- Determine acceleration from x(t) and v(t) graphs
 
 Physics Concepts
 
-- .Force as a vector (free-body diagrams)
-- .Relationship between force and motion (Newton's Second Law)
+- Force as a vector (free-body diagrams)
+- Relationship between force and motion (Newton's Second Law)
 
 ### Conceptual (C-Level) DONE BEFORE LAB
 
 Draw a picture of a cart traveling down an inclined track.
 
-- .Draw a schematic diagram labeling the forces on the cart
+- Draw a schematic diagram labeling the forces on the cart
 
 Draw a picture of a cart traveling along a flat track being pulled by a string (force)
 
-- .Draw a schematic diagram labeling the forces on the cart
+- Draw a schematic diagram labeling the forces on the cart
 
 Explorations:
 
-- .Imagine you are on a cart being pulled. You have hold of one end of the rope and your friend (the puller) is holding the other end of the rope.
-  - .You are stationary (you have your feet down). Is the force you exert on the rope greater than, less than or equal to your friend's force?
-  - .You are moving (you lifted your feet off the ground). Is the force you exert on the rope greater than, less than or equal to your friend's force?
-  - .(Do DURING Lab) Set up and calibrate the force sensors to check your answers.
+- Imagine you are on a cart being pulled. You have hold of one end of the rope and your friend (the puller) is holding the other end of the rope.
+  - You are stationary (you have your feet down). Is the force you exert on the rope greater than, less than or equal to your friend's force?
+  - You are moving (you lifted your feet off the ground). Is the force you exert on the rope greater than, less than or equal to your friend's force?
+  - (Do DURING Lab) Set up and calibrate the force sensors to check your answers.
 
 ### Basic Lab (B-level)
 
 Attach a force probe to a cart on a flat track and connect a string to the force probe. Pass the string over a pulley on the end of the track and connect it to a mass hanger. The falling mass will pull the cart down the track.
 
-- .You will determine how force affects motion by varying the mass that is pulling the cart. Eventually, you want to create a single plot which shows cart acceleration as a function of pulling force.
-  - .What quantity should be on the vertical axis? On the horizontal?
-  - .How will you measure each quantity (and their uncertainties) that you will put on the horizontal and vertical axes?
-  - .How many data points do you need for a good plot? Why?
-  - .Carry out your experiment and produce your plot!
+- You will determine how force affects motion by varying the mass that is pulling the cart. Eventually, you want to create a single plot which shows cart acceleration as a function of pulling force.
+  - What quantity should be on the vertical axis? On the horizontal?
+  - How will you measure each quantity (and their uncertainties) that you will put on the horizontal and vertical axes?
+  - How many data points do you need for a good plot? Why?
+  - Carry out your experiment and produce your plot!
 
 NOTES: You are required to include a schematic diagram with force vectors as part of your summary. Also, be sure that the hanging mass is NOT swinging as it falls.
 
 ### Advanced/Extended Lab Ideas (A-level) (Choose ONE)
 
-- .What happens if the cart mass increases but the pulling force is constant?
-- .How does the force pulling on the cart compare with the weight of the masses hanging off of the side? Use Newton's 2nd Law to explain your observations.
-- .Propose and carry out an experiment on something you are curious about (get your lab instructor's approval first
+- What happens if the cart mass increases but the pulling force is constant?
+- How does the force pulling on the cart compare with the weight of the masses hanging off of the side? Use Newton's 2nd Law to explain your observations.
+- Propose and carry out an experiment on something you are curious about (get your lab instructor's approval first
 
 # Check D2L for this Week's Lab!
 
 ### Additional Equipment
 
-- ."flagpole" , or board with various drilled holes (see Fig. 1)
-- .Wire/string
+- "flagpole" , or board with various drilled holes (see Fig. 1)
+- Wire/string
 
 ### Objectives
 
 Lab Skills
 
 - 
-  - .Uncertainty propagation
-  - .Measurement Precision
-  - .Significant figures
+  - Uncertainty propagation
+  - Measurement Precision
+  - Significant figures
 
-- .Agreement in measurements based on uncertainty
+- Agreement in measurements based on uncertainty
 
 Physics Concepts
 
 - 
-  - .Static equilibrium situations with torques (Newton's 2nd Law for rotation)
-  - .Addition of torques
+  - Static equilibrium situations with torques (Newton's 2nd Law for rotation)
+  - Addition of torques
 
 ### Conceptual (C-Level) DONE BEFORE LAB
 
 A crane is equipped with many safety features, such as radar to locate the position of the hook and a sensor to monitor the tension in the support wire. The designers want to program the tension sensor to anticipate the tension given the load on the crane and the distance from the mast.
 
-- .Draw a force diagram for the simplified crane model in Figure 1. Discuss this in your report.
-- .Work out an equation for the tension in the supporting cable. Your resulting equation can only depend on the following variables: the amount of mass on the crane (m); the mass of the crane arm (M); the distance of the mass from the crane mast (d); the angle that the cable makes with the crane arm (θ); the length of the crane arm (L).
+- Draw a force diagram for the simplified crane model in Figure 1. Discuss this in your report.
+- Work out an equation for the tension in the supporting cable. Your resulting equation can only depend on the following variables: the amount of mass on the crane (m); the mass of the crane arm (M); the distance of the mass from the crane mast (d); the angle that the cable makes with the crane arm (θ); the length of the crane arm (L).
 
 ### Basic Lab (B-level)
 
 To test your solution, you will construct the model crane shown in Figure 1 using the materials provided.
 
-- .Choose a single mass and place it on 5 different board locations (d). Again, both compute (using your C-level result) and measure the tension in the cable. Plot the measured and calculated tensions as functions of mass m. Don't forget uncertainty!
+- Choose a single mass and place it on 5 different board locations (d). Again, both compute (using your C-level result) and measure the tension in the cable. Plot the measured and calculated tensions as functions of mass m. Don't forget uncertainty!
 
 ### Advanced/Extended Lab Ideas (A-level) (Choose ONE)
 
 Our experimental setup for the crane can be easily modified to model the human forearm, with the wire representing the tendon that attaches close to your elbow, and the crane arm representing your forearm.
 
-- .Modify your crane setup so that it models a human arm
-  - .Repeat your analysis from C and B level (find how the tension in your tendon changes as you support a mass farther and farther out from your elbow).
-  - .What do you notice about the tension in this situation compared to that of the crane? Can you explain this?
+- Modify your crane setup so that it models a human arm
+  - Repeat your analysis from C and B level (find how the tension in your tendon changes as you support a mass farther and farther out from your elbow).
+  - What do you notice about the tension in this situation compared to that of the crane? Can you explain this?
 
-- .Propose and carry out an experiment on something you are curious about (get your lab instructor's approval first).
+- Propose and carry out an experiment on something you are curious about (get your lab instructor's approval first).
 
 ### Additional
 
@@ -708,43 +707,43 @@ Fun, fun, fun, fun, FUN!
 
  Equipment
 
-- .Various colored springs
-- .Mass hangers with masses
+- Various colored springs
+- Mass hangers with masses
 
 ### Objective
 
 Data collection
 
-- .Quantitative analysis of oscillating spring and mass 
+- Quantitative analysis of oscillating spring and mass 
 
 Lab Skills
 
 - 
-  - .Uncertainty propagation
-  - .Measurement Precision
+  - Uncertainty propagation
+  - Measurement Precision
 
-- .Significant Figures
-- .Agreement in measurements based on uncertainty
+- Significant Figures
+- Agreement in measurements based on uncertainty
 
-- .Determine the spring constant
+- Determine the spring constant
 
-- .Determine oscillation period. 
-- .Show energy is conserved (advanced) 
+- Determine oscillation period. 
+- Show energy is conserved (advanced) 
 
 Physics Concepts
 
-- .Hooke's law, spring constant and elastic potential energy
+- Hooke's law, spring constant and elastic potential energy
 
 ### Conceptual (C-Level) DONE BEFORE LAB
 
 You are given two identical springs (with spring constant k) and a mass (m).
 
-- .Imagine that both springs are attached to the mass side-by-side ("in parallel"), and the springs are attached to the ceiling with the mass hanging from them.
-  - .Draw a schematic diagram of the forces acting on the mass (don't forget labels!).
-  - .How much would each spring stretch? Write your answer as a number times how far the mass would stretch a single spring supporting its weight.
-  - .If you wanted to replace your two-spring combination with a single spring that stretched the same amount, how would the spring constant of your new spring compare with the spring constant of one of the original springs?
+- Imagine that both springs are attached to the mass side-by-side ("in parallel"), and the springs are attached to the ceiling with the mass hanging from them.
+  - Draw a schematic diagram of the forces acting on the mass (don't forget labels!).
+  - How much would each spring stretch? Write your answer as a number times how far the mass would stretch a single spring supporting its weight.
+  - If you wanted to replace your two-spring combination with a single spring that stretched the same amount, how would the spring constant of your new spring compare with the spring constant of one of the original springs?
 
-- .Repeat the previous steps, but this time for the case where the springs are attached end-to-end ("in series") to the block and hung from the ceiling.
+- Repeat the previous steps, but this time for the case where the springs are attached end-to-end ("in series") to the block and hung from the ceiling.
 
 ### Basic Lab (B-level)
 
@@ -756,215 +755,215 @@ Determine the spring constant of your spring using the following **three** diffe
 
 ### Advanced/Extended Lab Ideas (A-level)
 
-- .Verify your C-level predictions about springs in parallel and series using your methods from B-level
-- .Experimentally determine how the period of the spring-mass system depends on the mass, and compare with the expected value.
-- .Experimentally determine how the period of the spring-mass system depends on the spring constant, and compare with the expected value.
+- Verify your C-level predictions about springs in parallel and series using your methods from B-level
+- Experimentally determine how the period of the spring-mass system depends on the mass, and compare with the expected value.
+- Experimentally determine how the period of the spring-mass system depends on the spring constant, and compare with the expected value.
 
-- .Propose and carry out an experiment on something you are curious about (get your lab instructor's approval first).
+- Propose and carry out an experiment on something you are curious about (get your lab instructor's approval first).
 
 ### Additional Equipment
 
-- .Bones
-- .Calipers
+- Bones
+- Calipers
 
 ### Objective
 
 Data collection
 
-- .Using Micrometers/Calipers
+- Using Micrometers/Calipers
 
 Lab Skills
 
 - 
-  - .Uncertainty propagation
-  - .Measurement Precision
+  - Uncertainty propagation
+  - Measurement Precision
 
-- .Significant Figures
-- .Agreement in measurements based on uncertainty
+- Significant Figures
+- Agreement in measurements based on uncertainty
 
 Physics Concepts
 
-- .Stress
-- .Scaling
+- Stress
+- Scaling
 
 ### Conceptual (C-Level) DONE BEFORE LAB
 
 Larger animals, for excellent (physics!) reasons, have proportionally thicker bones than smaller animals. This goal of this lab is to help you understand why that is.
 
-- .Imagine that every dimension (length, width, and height) of an animal is doubled. How much would the force on one of the animal's legs (while standing at rest) increase by? HINT: Think of how the mass relates to the volume.
-- .If the bones scaled in the same way (length, width, and height are doubled), how much does the cross-sectional area of the bone increase by?
-- .Using your two previous answers, find how much the stress on the bone increases by when all of the dimensions of the animal are doubled
-  - .What if the animal's size is scaled up by 100 (such as from a mouse to an elephant)?
-  - .Why is this type of scaling problematic?
+- Imagine that every dimension (length, width, and height) of an animal is doubled. How much would the force on one of the animal's legs (while standing at rest) increase by? HINT: Think of how the mass relates to the volume.
+- If the bones scaled in the same way (length, width, and height are doubled), how much does the cross-sectional area of the bone increase by?
+- Using your two previous answers, find how much the stress on the bone increases by when all of the dimensions of the animal are doubled
+  - What if the animal's size is scaled up by 100 (such as from a mouse to an elephant)?
+  - Why is this type of scaling problematic?
 
 ### Basic Lab (B-Level)
 
-- .Time to find a law for bone scaling! Several sizes of bones are available. Measure their length and diameter (don't forget to account for uncertainty).
-- .We want to investigate how the thickness of the bones changes when the size of the animal changes. What should you plot on the vertical and horizontal axes? Make this plot.
-- .What fits better, a linear model, or a power model? Compare with the results you expect from C-Level.
+- Time to find a law for bone scaling! Several sizes of bones are available. Measure their length and diameter (don't forget to account for uncertainty).
+- We want to investigate how the thickness of the bones changes when the size of the animal changes. What should you plot on the vertical and horizontal axes? Make this plot.
+- What fits better, a linear model, or a power model? Compare with the results you expect from C-Level.
 
 ### Advanced/Extended Lab (A-Level) (DO ALL BULLET POINTS)
 
 In the C-Level, you found that the bones of animals don't scale in the way you might think, and in the B-Level you found that the thickness of bones scales up more quickly than the length. In the A-Level, you will see how to derive the power law that relates the bone diameter to the bone length.
 
-- .If the stress is to stay the same when each dimension doubles, how much should the cross-sectional area of the bones increase by? Write your answer as Anew = q\*Aold , where q is the value you are looking for. HINT: Set the "new" and "old" stress equal to each other, then write the "new" force (weight) in terms of the "old" force, and solve for Anew.
-- .Using your answer to the previous question, find how much the diameter of the bone increases by. You may find it useful to write the new area Anew in terms of the new diameter Dnew, and the old area Aold in terms of the old diameter Dold.
-- .How much would the diameter need to increase by if, instead of each dimension doubling, each dimension was multiplied by a factor of n? Your answer should be an equation containing Dnew = ?, where the ? contains Dold, n, and possibly some numbers.
-- .Using your previous answer, and the fact that n tells you how much the length of the bone changed (Lnew = n\*Lold), substitute Lnew and Lold in for n to find how Dnew depends on Dold, Lold, and Lnew.
-- .Compare the power law you just found with your experimental results from B-Level. Do they agree within uncertainties?
+- If the stress is to stay the same when each dimension doubles, how much should the cross-sectional area of the bones increase by? Write your answer as Anew = q\*Aold , where q is the value you are looking for. HINT: Set the "new" and "old" stress equal to each other, then write the "new" force (weight) in terms of the "old" force, and solve for Anew.
+- Using your answer to the previous question, find how much the diameter of the bone increases by. You may find it useful to write the new area Anew in terms of the new diameter Dnew, and the old area Aold in terms of the old diameter Dold.
+- How much would the diameter need to increase by if, instead of each dimension doubling, each dimension was multiplied by a factor of n? Your answer should be an equation containing Dnew = ?, where the ? contains Dold, n, and possibly some numbers.
+- Using your previous answer, and the fact that n tells you how much the length of the bone changed (Lnew = n\*Lold), substitute Lnew and Lold in for n to find how Dnew depends on Dold, Lold, and Lnew.
+- Compare the power law you just found with your experimental results from B-Level. Do they agree within uncertainties?
 
 
 
 ### Additional Equipment
 
-- .Happy and Unhappy balls
+- Happy and Unhappy balls
 
 ### Objective
 
 Data collection
 
-- .Set up appropriate experiment to measure force and motion as a function of time
+- Set up appropriate experiment to measure force and motion as a function of time
 
 Lab Skills
 
 - 
-  - .Uncertainty propagation
-  - .Measurement Precision
+  - Uncertainty propagation
+  - Measurement Precision
 
-- .Significant Figures
-- .Agreement in measurements based on uncertainty
+- Significant Figures
+- Agreement in measurements based on uncertainty
 
-- .Determine the area under the force vs. time curve compare to change in momentum 
-- .Region of Interest
-- .Data Collection Rate
+- Determine the area under the force vs. time curve compare to change in momentum 
+- Region of Interest
+- Data Collection Rate
 
 Physics Concepts
 
-- .Impulse 
-- .Conservation of Momentum 
-- .Elastic and Inelastic Collisions
+- Impulse 
+- Conservation of Momentum 
+- Elastic and Inelastic Collisions
 
 ### Conceptual (C-Level) DONE BEFORE LAB
 
 Suppose you wish to produce the greatest force on an object. You can throw either a bouncy ball or a non-bouncy (clay) ball. Each ball has the same mass, would interact with the object for the same amount of time, and you can throw them with the same speed.
 
-- .Using ideas of impulse and momentum, mathematically prove which ball produces the greatest force on the object (no plugging in numbers!).
+- Using ideas of impulse and momentum, mathematically prove which ball produces the greatest force on the object (no plugging in numbers!).
 
  ![](data:image/*;base64,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)
 
 Newton's Cradle is a toy you might have seen. It is a wooden rectangular box frame with multiple steel balls suspended next to each other in the middle such that they are free to swing horizontally.
 
-- .Suppose you have 5 steel balls suspended in the middle. If you pick 3 balls up and release them, what will happen? Why?
+- Suppose you have 5 steel balls suspended in the middle. If you pick 3 balls up and release them, what will happen? Why?
 
 ### Basic Lab (B-level)
 
 Let a cart traveling on slightly inclined track hit a ball placed in front of a force probe mounted at the bottom of the track. Remove the hook on the force probe so there is a flat interaction area. Increase the data collection rate (200 pts/sec is better than 20 pts/sec) and make sure you are not exceeding the force probe range (gentle collision). There are brackets available if you want to try different arrangements.
 
-- .Record the force and motion of the cart when it collides with an elastic object (happy ball) and an inelastic object (unhappy ball).
-  - .Calculate the impulse from the force vs time graph
-  - .Calculate the change in momentum 
-  - .Compare for different inclines and/or speeds (how many should you have for a "good" comparison?)
+- Record the force and motion of the cart when it collides with an elastic object (happy ball) and an inelastic object (unhappy ball).
+  - Calculate the impulse from the force vs time graph
+  - Calculate the change in momentum 
+  - Compare for different inclines and/or speeds (how many should you have for a "good" comparison?)
 
 ### Advanced/Extended Lab Ideas (A-level)
 
-- .Determine the momentum and energy (read ahead!) before and after elastic and inelastic collisions. The carts have Velcro that can be used to stick them together. You can use two motion detectors but make sure they don't "see" each other and have cross talk confuse the position vs time data. 
-  - .Two cars of equal mass collide. 
-  - .A massive car colliding with a smaller car.
-  - .A smaller car colliding with a massive car 
+- Determine the momentum and energy (read ahead!) before and after elastic and inelastic collisions. The carts have Velcro that can be used to stick them together. You can use two motion detectors but make sure they don't "see" each other and have cross talk confuse the position vs time data. 
+  - Two cars of equal mass collide. 
+  - A massive car colliding with a smaller car.
+  - A smaller car colliding with a massive car 
 
-- .Propose and carry out an experiment on something you are curious about (get your lab instructor's approval first).
+- Propose and carry out an experiment on something you are curious about (get your lab instructor's approval first).
 
 ### Additional Equipment
 
-- .Springs, string, masses, pulleys and assorted stands
+- Springs, string, masses, pulleys and assorted stands
 
 ### Objective
 
 Data collection
 
-- .Set up appropriate experiment to measure force on and motion of a cart 
+- Set up appropriate experiment to measure force on and motion of a cart 
 
 Lab Skills
 
 - 
-  - .Uncertainty propagation
-  - .Measurement Precision
+  - Uncertainty propagation
+  - Measurement Precision
 
-- .Significant Figures
-- .Agreement in measurements based on uncertainty
+- Significant Figures
+- Agreement in measurements based on uncertainty
 
-- .Graph potential and kinetic energy of cart
+- Graph potential and kinetic energy of cart
 
-- .Finding the area under a curve
-- .Determine work and relate to change in energy
+- Finding the area under a curve
+- Determine work and relate to change in energy
 
 Physics Concepts
 
-- .Work equals the change in Energy
+- Work equals the change in Energy
 
 ### Conceptual (C-Level) DONE BEFORE LAB
 
 Draw a picture of a cart that is given a brief push so it travels up and then down an inclined track.
 
-- .Draw a schematic diagram with the forces labeled during and after the push
-- .Sketch plots of the kinetic, gravitational potential, and total energies of the cart as functions of time for the time period after the push.
-- .Find an equation for the change in gravitational energy as a function of the distance the cart has traveled along the track. HINT: first find the height of the car as a function of the distance it has moved along the track.
+- Draw a schematic diagram with the forces labeled during and after the push
+- Sketch plots of the kinetic, gravitational potential, and total energies of the cart as functions of time for the time period after the push.
+- Find an equation for the change in gravitational energy as a function of the distance the cart has traveled along the track. HINT: first find the height of the car as a function of the distance it has moved along the track.
 
 ### Basic Lab (B-level)
 
 Incline the track with the motion detector at the top. Setup the cart so that you can push on a force probe to send the cart up the incline.
 
-- .Graph the potential, kinetic and total energy (on the same plot!) of the cart as a function of time. To do this, you will need to add some calculated columns (Remember Lab 1?)
-- .Graph the force as a function of distance. Determine the area under the curve for this function while you were pushing on the cart. Compare to the change in energy. As always, be sure to explain your results and include uncertainties.
+- Graph the potential, kinetic and total energy (on the same plot!) of the cart as a function of time. To do this, you will need to add some calculated columns (Remember Lab 1?)
+- Graph the force as a function of distance. Determine the area under the curve for this function while you were pushing on the cart. Compare to the change in energy. As always, be sure to explain your results and include uncertainties.
 
 ### Advanced/Extended Lab Ideas (A-level) (Choose ONE)
 
-- .Setup a pulley system to lift an object with less than ¼ the objects gravitational weight. 
-  - .Find the force needed to lift a given mass with and without your pulley system
-  - .Energy required to lift the mass (to a certain height) without the pulley system
-  - .Energy required by pulley system to lift the mass (to the same height)
+- Setup a pulley system to lift an object with less than ¼ the objects gravitational weight. 
+  - Find the force needed to lift a given mass with and without your pulley system
+  - Energy required to lift the mass (to a certain height) without the pulley system
+  - Energy required by pulley system to lift the mass (to the same height)
 
-- .Hook your cart to a spring (on your inclined track) so it oscillates. 
-  - .Graph kinetic, spring potential, gravitational potential and total energies. Is the total energy conserved?
-  - .If you get an unexpected result, investigate the spring potential energy plot. You may wish to compare it to a force vs position plot. How should these two plots be related, and does your data show this relation?
+- Hook your cart to a spring (on your inclined track) so it oscillates. 
+  - Graph kinetic, spring potential, gravitational potential and total energies. Is the total energy conserved?
+  - If you get an unexpected result, investigate the spring potential energy plot. You may wish to compare it to a force vs position plot. How should these two plots be related, and does your data show this relation?
 
-- .Propose and carry out an experiment on something you are curious about (get your lab instructor's approval first). 
+- Propose and carry out an experiment on something you are curious about (get your lab instructor's approval first). 
 
 ### Additional Equipment
 
-- .Coffee filters and small masses
-- .Optional: Cart, friction pad, track and Force Probe
+- Coffee filters and small masses
+- Optional: Cart, friction pad, track and Force Probe
 
 ### Objective
 
 Data collection
 
-- .Set up appropriate experiment to measure position of a falling object 
+- Set up appropriate experiment to measure position of a falling object 
 
 Lab Skills
 
-- .Graph position and velocity as a function of time.
-- .Determine terminal velocity from a line fit
-- .Determine the dependence of drag force on velocity
+- Graph position and velocity as a function of time.
+- Determine terminal velocity from a line fit
+- Determine the dependence of drag force on velocity
 
 Physics Concepts
 
-- .Terminal velocity (also called terminal speed)
-- .Drag force
+- Terminal velocity (also called terminal speed)
+- Drag force
 
 ### Conceptual (C-Level) DONE BEFORE LAB
 
 You and a friend are tossing an object back and forth.
 
-- .Draw a schematic diagram with the forces labeled 
-  - .right after the object is thrown
-  - .when the object is at the top of it trajectory
-  - .right before the object is caught
+- Draw a schematic diagram with the forces labeled 
+  - right after the object is thrown
+  - when the object is at the top of it trajectory
+  - right before the object is caught
 
 Drop a (new) coffee filter and another that is wadded into a tight ball.
 
-- .Draw the velocity vs time graph for both coffee filters.
-- .Describe in words and pictures the terminal velocity of the coffee filter.
+- Draw the velocity vs time graph for both coffee filters.
+- Describe in words and pictures the terminal velocity of the coffee filter.
 
 ### Basic Lab (B-level)
 
@@ -981,35 +980,35 @@ Change the mass of the filter (without changing its surface area) and determine 
 
 Change the mass of the filter (without changing its surface area) and determine the drag force.
 
-- .Graph the drag force as a function of terminal velocity and determine the power dependence.
+- Graph the drag force as a function of terminal velocity and determine the power dependence.
 
 ### Advanced/Extended Lab Ideas (A-level) (Choose ONE)
 
-- .Create a function that fits the acceleration vs time graph using the correct drag force.
-- .Repeat your experiment for an object you expect has a different drag force dependence.
-- .Determine the static and kinetic coefficients of friction for an object on a surface
-- .Propose and carry out an experiment on something you are curious about (get your lab instructor's approval first)
+- Create a function that fits the acceleration vs time graph using the correct drag force.
+- Repeat your experiment for an object you expect has a different drag force dependence.
+- Determine the static and kinetic coefficients of friction for an object on a surface
+- Propose and carry out an experiment on something you are curious about (get your lab instructor's approval first)
 
 ### Additional Equipment
 
-- .None, just computers with a working internet connection
+- None, just computers with a working internet connection
 
 ### Objective
 
 Data collection
 
-- .Look up estimated values of needed physical quantities
+- Look up estimated values of needed physical quantities
 
 Lab Skills
 
-- .Unit Conversions
-- .Modeling Skills
-- .Estimating Uncertainties
+- Unit Conversions
+- Modeling Skills
+- Estimating Uncertainties
 
 Physics Concepts
 
-- .Power
-- .Efficiency
+- Power
+- Efficiency
 
 ### Conceptual (C-Level) DONE BEFORE LAB
 
@@ -1017,37 +1016,37 @@ This week's lab is more of a "group modeling exercise" rather than a traditional
 
 Humans need energy (we call it "food") to survive, and this energy has to come from somewhere. 
 
-- .Use an online calorie calculator (such as the one at http://www.calculator.net/calorie-calculator.html ) to estimate your daily caloric need and:
-  - .record this number in your lab notebook
-  - .convert the number to Joules (really Joules / day)
+- Use an online calorie calculator (such as the one at http://www.calculator.net/calorie-calculator.html ) to estimate your daily caloric need and:
+  - record this number in your lab notebook
+  - convert the number to Joules (really Joules / day)
 
 Let's assume we have a technologically advanced device that can convert, with 100% efficiency, solar energy into your caloric energy. Find how much area you need to absorb the solar energy by:
 
-- .Looking up the term "insolation" (it's NOT the stuff that keeps your house warm), and finding a typical insolation value for the United States.
-- .Use the insolation value you found, along with your daily Caloric requirements, to find the area (in square-meters) needed by our technologically advanced device to convert enough solar energy to keep you "fed". Record this number in your lab notebook.
+- Looking up the term "insolation" (it's NOT the stuff that keeps your house warm), and finding a typical insolation value for the United States.
+- Use the insolation value you found, along with your daily Caloric requirements, to find the area (in square-meters) needed by our technologically advanced device to convert enough solar energy to keep you "fed". Record this number in your lab notebook.
 
 In preparation for B-Level, look up (using a textbook / journal article / good internet source):
 
-- .A typical value for the efficiency of photosynthesis for converting sunlight into biomass
-- .The term "trophic level", and "the 10% rule", and describe them
+- A typical value for the efficiency of photosynthesis for converting sunlight into biomass
+- The term "trophic level", and "the 10% rule", and describe them
 
 ### Basic Lab (B-level)
 
 In C-Level, you found the area necessary to harvest enough solar energy to "feed" you, assuming 100% of it could be converted to "food". Unfortunately, devices for converting solar energy into consumable energy (we call them "plants") are not nearly that efficient!
 
-- .Using the efficiency of photosynthesis you found in C-Level and the "10 % rule", find the new total area required to convert solar energy into plant energy into Caloric energy. 
-- .Our model so far assumes that we get to convert solar energy into plants year-round. Looking outside, this is not the case! Estimate how much more area you need to collect enough extra energy during the "growing season" to keep you fed year-round. Record this number in your lab notebook.
+- Using the efficiency of photosynthesis you found in C-Level and the "10 % rule", find the new total area required to convert solar energy into plant energy into Caloric energy. 
+- Our model so far assumes that we get to convert solar energy into plants year-round. Looking outside, this is not the case! Estimate how much more area you need to collect enough extra energy during the "growing season" to keep you fed year-round. Record this number in your lab notebook.
 
 The next refinement to our model: we just assumed that you only eat plant-derived calories. We now need to modify this number to account for the meat/veggie split in your diet.
 
-- .Estimate the percentage of your calories that are animal-derived (meat, eggs, egg-based noodles, milk, fish) and the percentage that are plant-derived. These numbers should add to 1!
-- .Using these percentages, the ideas of "trophic levels" (the 10% rule), find the new area required to absorb enough solar energy to feed you!
+- Estimate the percentage of your calories that are animal-derived (meat, eggs, egg-based noodles, milk, fish) and the percentage that are plant-derived. These numbers should add to 1!
+- Using these percentages, the ideas of "trophic levels" (the 10% rule), find the new area required to absorb enough solar energy to feed you!
 
 Next Up – Go Big! We want to estimate the total population that the Earth can support using this model. Do this by:
 
-- .Averaging your areas with those of your group members to get a more representative value
-- .Finding (look it up!) the total amount of farmable land on the planet. This is sometimes called "arable" land, and you will likely have to convert the units to square meters.
-- .Use both your average and the total arable area to find the maximum number of people the Earth can support, and compare with the Earth's current population.
+- Averaging your areas with those of your group members to get a more representative value
+- Finding (look it up!) the total amount of farmable land on the planet. This is sometimes called "arable" land, and you will likely have to convert the units to square meters.
+- Use both your average and the total arable area to find the maximum number of people the Earth can support, and compare with the Earth's current population.
 
 Uncertainties – Your estimate is most definitely an estimate, but that does not mean we can't estimate uncertainties. With your group, pick one aspect of the model (one of the assumptions) that you believe uncertainty will have the largest effect on your final number. Estimate the uncertainty, and change the assumption to the "smaller" end, and see how much your final area changes. What percent did your answer change by?
 
@@ -1055,5 +1054,5 @@ Modeling – While this exercise has very little of what most people associate w
 
 ### Advanced Lab (A-level)
 
-- .Identify at least 2 additional ways in which the model could be modified to be more accurate (and carry out estimations to arrive at a new number, along with uncertainties)
-- .List all assumptions that went into the final model, and identify any assumptions that may be inaccurate, either now or at some point in the future, and discuss the implications. It may help to consider the question we were answering: "What is the total global population sustainable by the Earth?" NOTE: Some of the assumptions were not explicitly listed in the lab!
+- Identify at least 2 additional ways in which the model could be modified to be more accurate (and carry out estimations to arrive at a new number, along with uncertainties)
+- List all assumptions that went into the final model, and identify any assumptions that may be inaccurate, either now or at some point in the future, and discuss the implications. It may help to consider the question we were answering: "What is the total global population sustainable by the Earth?" NOTE: Some of the assumptions were not explicitly listed in the lab!
