@@ -56,3 +56,6 @@ Incline the track with the motion detector at the top. Setup the cart so that yo
   - If you get an unexpected result, investigate the spring potential energy plot. You may wish to compare it to a force vs position plot. How should these two plots be related, and does your data show this relation?
 
 - Propose and carry out an experiment on something you are curious about (get your lab instructor's approval first). 
+
+\eject
+

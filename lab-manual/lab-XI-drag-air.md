@@ -57,3 +57,6 @@ Change the mass of the filter (without changing its surface area) and determine 
 - Repeat your experiment for an object you expect has a different drag force dependence.
 - Determine the static and kinetic coefficients of friction for an object on a surface
 - Propose and carry out an experiment on something you are curious about (get your lab instructor's approval first)
+
+\eject
+

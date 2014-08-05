@@ -69,3 +69,6 @@ Using LoggerPro, analyze the motion of an object (insert movie "basketball shot"
 
 - Experimentally determine how a ball's horizontal and vertical velocities change after a bounce (use the video!)
 - Propose and carry out an experiment on something you are curious about (get your lab instructor's approval first)
+
+\eject
+

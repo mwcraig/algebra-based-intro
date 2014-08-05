@@ -75,3 +75,6 @@ Determine the spring constant of your spring using the following **three** diffe
 - Experimentally determine how the period of the spring-mass system depends on the spring constant, and compare with the expected value.
 
 - Propose and carry out an experiment on something you are curious about (get your lab instructor's approval first).
+
+\eject
+

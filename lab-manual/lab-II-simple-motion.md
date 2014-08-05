@@ -72,3 +72,6 @@ Note: An advanced lab includes a quantitative component with error analysis. The
 - Vary the angle of the track and graph the position and velocity of the cart as a function of time. Try this for a variety of angles. Do you notice a pattern? 
 - Looking at your plots, when can you tell when something is pushing the object? What evidence do you have for an external "push" for an object not moving horizontally?
 - Propose and carry out an experiment on something you are curious about (get your lab instructor's approval first).
+
+\eject
+

@@ -52,3 +52,6 @@ In the C-Level, you found that the bones of animals don't scale in the way you m
 - Compare the power law you just found with your experimental results from B-Level. Do they agree within uncertainties?
 
 
+
+\eject
+

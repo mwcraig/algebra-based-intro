@@ -59,3 +59,6 @@ Let a cart traveling on slightly inclined track hit a ball placed in front of a 
   - A smaller car colliding with a massive car 
 
 - Propose and carry out an experiment on something you are curious about (get your lab instructor's approval first).
+
+\eject
+

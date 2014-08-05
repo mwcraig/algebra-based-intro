@@ -45,3 +45,6 @@ Our experimental setup for the crane can be easily modified to model the human f
   - What do you notice about the tension in this situation compared to that of the crane? Can you explain this?
 
 - Propose and carry out an experiment on something you are curious about (get your lab instructor's approval first).
+
+\eject
+

@@ -68,3 +68,6 @@ Modeling – While this exercise has very little of what most people associate w
 
 - Identify at least 2 additional ways in which the model could be modified to be more accurate (and carry out estimations to arrive at a new number, along with uncertainties)
 - List all assumptions that went into the final model, and identify any assumptions that may be inaccurate, either now or at some point in the future, and discuss the implications. It may help to consider the question we were answering: "What is the total global population sustainable by the Earth?" NOTE: Some of the assumptions were not explicitly listed in the lab!
+
+\eject
+

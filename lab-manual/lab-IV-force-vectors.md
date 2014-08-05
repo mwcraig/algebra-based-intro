@@ -46,3 +46,6 @@ You will be experimentally checking your answer to the C-Level lab using the For
 - Move one of the masses by 30 degrees and experimentally determine the new force (a fourth weight) needed to bring the system into equilibrium again. Compare your result with a theoretical prediction.
 
 - Propose and carry out an experiment on something you are curious about (get your lab instructor's approval first)
+
+\eject
+

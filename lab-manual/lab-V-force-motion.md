@@ -59,3 +59,6 @@ NOTES: You are required to include a schematic diagram with force vectors as par
 - What happens if the cart mass increases but the pulling force is constant?
 - How does the force pulling on the cart compare with the weight of the masses hanging off of the side? Use Newton's 2nd Law to explain your observations.
 - Propose and carry out an experiment on something you are curious about (get your lab instructor's approval first
+
+\eject
+

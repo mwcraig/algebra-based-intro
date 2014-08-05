@@ -128,3 +128,6 @@ Create a plot in LoggerPro (NOT Excel!) of your measured femur lengths vs measur
 | 31 |  |  |  |  |  |
 | 32 |  |  |  |  |  |
 
+
+\eject
+
