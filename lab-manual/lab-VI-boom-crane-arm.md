@@ -28,7 +28,7 @@ Physics Concepts
 A crane is equipped with many safety features, such as radar to locate the position of the hook and a sensor to monitor the tension in the support wire. The designers want to program the tension sensor to anticipate the tension given the load on the crane and the distance from the mast.
 
 - Draw a force diagram for the simplified crane model in Figure 1. Discuss this in your report.
-- Work out an equation for the tension in the supporting cable. Your resulting equation can only depend on the following variables: the amount of mass on the crane (m); the mass of the crane arm (M); the distance of the mass from the crane mast (d); the angle that the cable makes with the crane arm (θ); the length of the crane arm (L).
+- Work out an equation for the tension in the supporting cable. Your resulting equation can only depend on the following variables: the amount of mass on the crane ($m$); the mass of the crane arm ($M$); the distance of the mass from the crane mast ($d$); the angle that the cable makes with the crane arm ($\theta$); the length of the crane arm ($L$).
 
 ### Basic Lab (B-level)
 
