@@ -205,15 +205,15 @@ The purpose of the lab summaries is to give you and your group prompt feedback. 
 
 ### C-Level (DONE BEFORE LAB)
 
-- .Written response from all individuals (quick check); group oral questioning.
-- .Must work in assigned group.
-- .Must get at least a 3 on the C-level lab to get credit for any B-level or A-level work.
+- Written response from all individuals (quick check); group oral questioning.
+- Must work in assigned group.
+- Must get at least a 3 on the C-level lab to get credit for any B-level or A-level work.
 
 ### B-Level (Done DURING Lab)
 
-- .Group summary of quantitative basic lab.
-- .Must work in assigned group.
-- .Must get at least a 2 on the B-level lab to get credit for any A-level work.
+- Group summary of quantitative basic lab.
+- Must work in assigned group.
+- Must get at least a 2 on the B-level lab to get credit for any A-level work.
 
 | 1 | Multiple elements missing | Did something minimal |
 | --- | --- | --- |
@@ -223,9 +223,9 @@ The purpose of the lab summaries is to give you and your group prompt feedback. 
 
 ### A-Level (Done DURING and AFTER Lab)
 
-- .Group summary of advanced lab activity. The exact activity is up to each group to formulate. The A-level allows for more inquiry-based investigations. Try to have quantitative results and include error, unless a theoretical investigation.
-- .May work with anyone (you do not need to work in your assigned group).
-- .An A-level activity can be a future B-level lab, or can be based on B-level results.
+- Group summary of advanced lab activity. The exact activity is up to each group to formulate. The A-level allows for more inquiry-based investigations. Try to have quantitative results and include error, unless a theoretical investigation.
+- May work with anyone (you do not need to work in your assigned group).
+- An A-level activity can be a future B-level lab, or can be based on B-level results.
 
 | 1 | Activity lacks purpose and focus. |
 | --- | --- |
