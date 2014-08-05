@@ -48,27 +48,27 @@ When reporting best values and uncertainties, we will agree to use a slightly ar
 
 Rule1: Write no more than 2 significant figures in the uncertainty, and round the best value to the smallest affected digit. 
 
-Example: 30.6480.375 m
+Example: 30.648 ± 0.375 m
 
 Solution: 
 
 1. a)Start with the uncertainty and round it to 2 significant figures: 0.375 becomes 0.38.
 2. b)Determine the place of the smallest digit in the uncertainty: the one hundredths place.
-3. c)Round the best value to the smallest decimal place of the uncertainty: 30.650.38 m
+3. c)Round the best value to the smallest decimal place of the uncertainty: 30.65 ± 0.38 m
 
 When determining whether or not two uncertain data values are in agreement, we will use the rule below:
 
 Rule 2: Two experimental values are said to be "significantly different" if the values are more than three error bars apart.
 
-Example: Are 1.250.05 s and 3.21.9 significantly different?
+Example: Are 1.25 ± 0.05 s and 3.2 ± 1.9 significantly different?
 
 Solution:
 
 1. a)The best values are |3.2-1.25|=1.97 s apart.
 2. b)The larger uncertainty is 1.9 s. 
 3. c)The best values are therefore approximately one error bar apart. Applying the rule above, since the values are less than three error bars apart we would say the values are not significantly different, or that they "agree within experimental uncertainty"!
-  - Are the values 7.210.01 m and 7.290.01 m significantly different? Why? Sketch the error bars.
-  - Do the values 0.250.12 m and 0.450.02 m agree within uncertainty? Why? Sketch the error bars.
+  - Are the values 7.21 ± 0.01 m and 7.29 ± 0.01 m significantly different? Why? Sketch the error bars.
+  - Do the values 0.25 ± 0.12 m and 0.45 ± 0.02 m agree within uncertainty? Why? Sketch the error bars.
 
 **Uncertainty in sensor measurements – DONE IN LAB**
 
