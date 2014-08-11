@@ -26,6 +26,8 @@ A crane is equipped with many safety features, such as radar to locate the posit
 - Draw a force diagram for the simplified crane model. Discuss this in your report.
 - Work out an equation for the tension in the supporting cable. Your resulting equation can only depend on the following variables: the amount of mass on the crane ($m$); the mass of the crane arm ($M$); the distance of the mass from the crane mast ($d$); the angle that the cable makes with the crane arm ($\theta$); the length of the crane arm ($L$).
 
+![Crane](crane.png)
+
 ## Basic Lab (B-level)
 
 To test your solution, you will construct the model crane using the materials provided.
