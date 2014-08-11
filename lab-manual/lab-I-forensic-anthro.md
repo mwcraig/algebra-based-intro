@@ -129,5 +129,7 @@ Create a plot in LoggerPro (NOT Excel!) of your measured femur lengths vs measur
 | 32 |  |  |  |  |  |
 
 
+&copy; 2010--2014 Steve Lindaas, John Buncher and Sara Schultz
+
 \eject
 
