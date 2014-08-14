@@ -1,0 +1,175 @@
+\documentclass[fleqn,letterpaper]{article}
+\usepackage{fullpage}
+\usepackage[dvips]{graphicx}
+\usepackage{amssymb}
+\usepackage{fancyhdr}
+\usepackage[active]{srcltx}
+\addtolength{\parskip}{\baselineskip}
+\pagestyle{fancy}
+\headheight=12pt
+\parindent 0cm
+
+\begin{document}
+
+\lhead{\it Instructor's Lab Manual for Physics 160 }
+\cfoot{}
+\rhead{\it Page \thepage~of \pageref{LastPage} }
+\headsep=25pt
+%\baselineskip=12pt
+
+\section*{Bone Scaling}
+
+\subsection*{Additional Equipment}
+
+\begin{itemize}
+  \item{the bones have been graciously provided by the Biosciences Department.  Please treat with care.  The bones have been numbered, do not remove the numbers.}
+  \item{Various measuring tools have also been provided to the students.}
+\end{itemize}
+
+\subsection*{Objective}
+
+This lab intends to build the student's skills with:
+%
+\begin{itemize}
+ \item{Stress (in a physics sense, $F/A$)}
+ \item{Proportional Reasoning}
+ \item{Estimating Uncertainties}
+ \item{Using a fit to determine the length-dependence of bone diameter}
+\end{itemize}
+%
+
+\subsection*{Conceptual (C-level) (Done BEFORE Lab)}
+
+The intent of the C-Level is to have the students work through what would happen if animals just ``scaled up'' equally in all dimensions (length doubled, width doubled, and height doubled).  Answers to the bullet points follow.
+
+\begin{itemize}
+ \item{If every dimension doubled, then the volume of the animal would go up by $2^3 = 8$, so the mass would go up by a factor of 8, and since the animal's leg needs to support $mg$, then the force would go up by the same factor of 8.}
+ \item{If the bones scaled in the same way, then the cross-sectional area of the bones would go up by $A_{\rm new} = L_{\rm new}\cdot W_{\rm new} = 2 L_{\rm old} \cdot 2 W_{\rm old} = 4 (L_{\rm old} W_{\rm old}) = 4A_{\rm old}$, so the cross-sectional area would go up by a factor of 4.}
+ \item{The stress is defined by $F/A$.  So, our new stress is:
+  \begin{eqnarray}
+   \frac{F_{\rm new}}{A_{\rm new}} & = & \frac{8 F_{\rm old}}{4 A_{\rm old}} \\
+   \frac{F_{\rm new}}{A_{\rm new}}& = & 2\frac{ F_{\rm old}}{A_{\rm old}},
+  \end{eqnarray}
+  so the stress on our new system is double the stress on the old system.  If we instead had scaled up all dimensions by 100, then the new stress would be 100 times that of the old system.}
+  \item{This is problematic because bones (and other biological tissue) has a sent tensile strength, a maximum stress that they can withstand before breaking.  If bones/animals scaled in this way, then large animals would be extremely susceptible to breaking bones.}
+\end{itemize}
+ 
+
+
+\subsubsection*{Rubric}
+
+\begin{itemize}
+ \item{Pick a notebook at random from the group.  If the entire C-Level has not been attempted, dock 1 point from the group.}
+ \item{If the students just ``quit'' or otherwise have a bad attitude are are not staying on task, dock a point (or two) after a warning.}
+ \item{Other than these 2 things, assist the groups by asking leading questions as you see fit so they understand the C-level.  If they came prepared, worked hard, and got through the C-level, they get 4/4.}
+\end{itemize}
+
+
+\subsection*{Basic Lab (B-level)}
+
+This is pretty straightforward: students will measure the diameter and length of the various bones (with uncertainty), and find how the diameter scales with length.
+
+Some additional notes:
+
+\begin{itemize}
+\item{BE CAREFUL WITH THE BONES.  Particularly the small ones in the plastic tray.  They are fragile, and they are on loan from Biosciences.}
+\item{All of the bones should be femurs (there are 3 small one in the plastic tray).}
+\item{Students may need to be shown how to use the micrometer/calipers.  This is probably best done group-by-group.}
+\item{The bones are numbered (thanks Dana!).  Students should send a member from their group to get ONE bone (or the plastic tray), bring it to their table, perform and record their measurements (including which number bone it was).  When they have done so, they should replace the bone and take a new one.}\
+\item{UNCERTAINTIES -- Any reasonable method to estimate their uncertainty is fine.  As you may have noticed, in this lab we are not concerned as much with how they find the uncertainty (so long as it is reasonable), but we do want them to know there is an uncertainty, and how to use it to compare two measurements.  Thus, there are a few reasonable things they could do:
+  \begin{itemize}
+  \item{For the lengths, they can probably estimate the uncertainty ($\pm$ a few cm for some, smaller for others.  The important thing on the length is that they measure all of the lengths the same way (outer most edge to outer most edge, the length of the ``column'', somewhere in between?, any will work, they just need to use the same one each time).}
+  \item{Measuring the diameter is tricky in the same manner as the length, because the bones aren't actual cylinders.  If you rotate the bone, the diameter changes.  A method that worked for me was to make 3 measurements of the diameter (at various place along the middle of the bone, with the bone in various orientations), and use each of these as 3 separate ``points'' with the measured length.  You could also use these and find their average and then estimate the uncertainty from the range of measurements.  This takes a while.}
+  \item{Students will need to use all the various bone sizes to get an accurate fit to their $D$ vs $L$ plot.}
+  \item{Students should find that a power model fits better.  Using $\rm{Diameter} = A\cdot(\rm{Length})^B$, they should find $B = 3/2$ from LoggerPro.  When I did the measurements, I found $B = 1.42 \pm 0.06$, which worked out quite well.}
+  \item{When I omitted the largest bones, the fit was much closer to linear ($B \approx 1$).  I believe this has to do with issues in doing any power fit: you need many orders of magnitude in your data to get an accurate fit.  We have ``not quite 2'' orders of magnitude (smallest diameter is ~1~mm, largest is ~60~mm).  So, getting those large bones is crucial to getting a good fit.}
+  \end{itemize}}
+\end{itemize}
+
+\subsubsection*{Rubric -- Lab Summary}
+
+There should be a single plot that the students submit (Diameter vs. length) with a single data set.
+
+For this lab, specifically, they should have:
+
+\begin{enumerate}
+ \item{
+  \begin{itemize}
+   \item{Some diagrams and numbers present, very minimal.}
+  \end{itemize}
+}
+ \item{
+  \begin{itemize}
+   \item{Plot of diameter vs. length present, including labels and units}
+   \item{Some uncertainties missing}
+   \item{Reported results, but no interpretation}
+  % \item{No mention of the scale used}
+  \end{itemize}
+}
+ \item{
+  \begin{itemize}
+ %  \item{Stating what scale they used}
+   \item{All uncertainties present}
+   \item{Linear and power fit present on the plot}
+   \item{Mention of which one fits better}
+   \item{Some physics, but no explicit mention of the C-Level results which indicate why the power fit should be better.}
+  \end{itemize}
+}
+ \item{
+  \begin{itemize}
+   \item{Explicit mention of C-level result, that if D is proportional to L then the bones get too close to the tensile strength for larger animals.}
+   \item{Discussion of how they obtained the uncertainties.}
+  \end{itemize}
+}
+\end{enumerate}
+
+
+\subsection*{Advanced/Extended Lab Ideas (A-level)}
+
+The A-Level leads the students through proving that $D \propto L^{3/2}$.  This was originally part of the C-Level, but initial testing indicated that it might be a bit much for the C-Level, so it was pushed to the A-Level.  Suggestions welcome!  What follows is a solution for each bullet point:
+
+\begin{itemize}
+ \item{In C-level we found that the area can't scale like the rest of the animal, so this bullet point figure out how it has to scale.  We start by keeping the stresses equal,
+ \begin{equation}
+  \frac{F_{\rm new}}{A_{\rm new}} = \frac{F_{\rm old}}{A_{\rm old}}
+ \end{equation}
+ Then, we write the new ``scaled-up'' force in terms of the old one using our C-level results:
+ \begin{equation}
+  \frac{8 F_{\rm old}}{A_{\rm new}} = \frac{F_{\rm old}}{A_{\rm old}}
+ \end{equation}
+ and solve for the new area
+  \begin{eqnarray}
+   \frac{8 F_{\rm old}}{A_{\rm new}} & = & \frac{F_{\rm old}}{A_{\rm old}} \\
+   \frac{8}{A_{\rm new}} & = & \frac{1}{A_{\rm old}} \\
+   8 A_{\rm old} & = &  A_{\rm new}
+  \end{eqnarray}
+ so the new area of the bone needs to be 8 times the old area.  This is double what we found in C-Level if the bone area scaled like the rest of the animal.}
+ \item{We know (approximating the cross-sectional area of the bone as a circle) that $A = \frac{\pi}{4}D^2$, so
+  \begin{eqnarray}
+   A_{\rm new} & = &  8 A_{\rm old} \\
+   \frac{\pi}{4}D_{\rm new}^2 & = &  8 \frac{\pi}{4}D_{\rm old}^2 \\
+   D_{\rm new}^2 & = &  8 D_{\rm old}^2 \\
+   D_{\rm new} & = &  \sqrt{8} D_{\rm old} \\
+   D_{\rm new} & = &  \sqrt{2^3} D_{\rm old} \\
+   D_{\rm new} & = &  2^{3/2} D_{\rm old} \\
+  \end{eqnarray}
+}
+\item{If each dimension went up by a factor of $n$, then the new diameter would be $D_{\rm new}  =  n^{3/2} D_{\rm old}$}
+\item{Since $n = L_{\rm new}/L_{\rm old}$, then we have
+  \begin{eqnarray}
+   D_{\rm new} & = &  n^{3/2} D_{\rm old} \\
+   D_{\rm new} & = &  \left( \frac{L_{\rm new}}{L_{\rm old}} \right)^{3/2} D_{\rm old} \\
+   D_{\rm new} & = &   \frac{D_{\rm old}}{L_{\rm old}^{3/2}} L_{\rm new}^{3/2} \\
+  \end{eqnarray}
+  where in the last line we have rearranged things to show that the dependence of the diameter on bone length is proportional to $L^{3/2}$.
+}
+\item{The students need to explicitly compare this 3/2 with their value obtained from the fit (with uncertainty).}
+\end{itemize}
+
+\subsubsection*{Rubric -- Lab Summary}
+
+Follow the rubric on page 7 of the lab manual.  Since the students can choose any A-level, I won't be writing up a detailed rubric for every suggestion.  Hopefully, the B-level rubrics included here help to establish a good guideline.  If you have further questions, please ask!
+
+\label{LastPage}
+
+\end{document}

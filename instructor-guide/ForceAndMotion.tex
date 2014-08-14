@@ -1,0 +1,145 @@
+\documentclass[fleqn,letterpaper]{article}
+\usepackage{fullpage}
+\usepackage[dvips]{graphicx}
+\usepackage{amssymb}
+\usepackage{fancyhdr}
+\usepackage[active]{srcltx}
+\addtolength{\parskip}{\baselineskip}
+\pagestyle{fancy}
+\headheight=12pt
+\parindent 0cm
+
+\begin{document}
+
+\lhead{\it Instructor's Lab Manual for Physics 160 }
+\cfoot{}
+\rhead{\it Page \thepage~of \pageref{LastPage} }
+\headsep=25pt
+%\baselineskip=12pt
+
+\section*{Force and Motion}
+
+\subsection*{Additional Equipment}
+
+\begin{itemize}
+  \item{Track-mounted pulleys should be provided (already in the lab)}
+\end{itemize}
+
+\subsection*{Objective}
+
+This lab intends to build the student's skills with:
+%
+\begin{itemize}
+ \item{drawing free-body diagrams}
+ \item{understanding Newton's Third Law}
+ \item{Obtaining uncertainties from LoggerPro from motion and force measurements}
+ \item{Comparing predicted and measured values, based on uncertainties.}
+\end{itemize}
+%
+
+\subsection*{Conceptual (C-level) (Done BEFORE Lab)}
+
+The first two bullet-points should be pretty straightforward for the students, though they may be confused on the wording of ``schematic diagram''.  This will be changed for next year.  What they should have is a sketch (picture) of what is happening as well as a free-body diagram for both situations.  The students do NOT need to worry about drag.  I am not particular about the specific notation used by the students for their forces, though some common ones are:
+
+\begin{itemize}
+ \item{$\vec{F}_N$ or $\vec{N}$ or $\vec{n}$ for the normal force}
+ \item{$\vec{F}_T$ or $\vec{T}$ for the tension force}
+ \item{$\vec{F}_g$ or $\vec{w}$ for the weight (force of gravity from the Earth on the object}
+\end{itemize}
+
+\subsubsection*{Explorations}
+
+The last bullet point in this section is done in lab, but we'll discuss the first two first.
+
+The purpose of these questions is to get the students to think about Newton's Third Law.  As you are aware, the Thrid Law is often confusing for students, and the additional presence of a string/rope between the two objects (``you and your friend'') can make the issue more confusing if care is not taken.  As few notes:
+
+\begin{itemize}
+ \item{We are assuming \textbf{massless} strings here, so that the tension is transmitted undiminished from one end of the string to the other}
+ \item{The students have not yet seen this explicitly, however the relevant information is on p. 153 of their text (last bullet point on the page)}
+ \item{The pedagogical reason for including the rope/string is that in the last bullet point of the C-level they will be testing this idea using 2 force probes and some string, rather than 2 force probes ``directly'' interacting.}
+ \item{I tend to emphasize the conflict students have between the 3rd Law and the 2nd Law.  While most are fine ``guessing'' that the forces you and your friend exert on the rope are identical when neither of you are moving, most don't see how that could be so in the second bullet point.  I like to draw out this discussion, leading the students to carefully think about what objects each force is acting on, what other forces (friction) are acting on those objects, and how those forces compare (the friction on the ``puller'' has to have a smaller magnitude than the friction on the ``pull-ee'' (not pulley!)}
+ \item{To experimentally check their answers, students should attach the force probes to the carts, put the carts on the track, and pull (not too strongly) to replicate the conditions of the first two bullet points in ``Explorations''}
+\end{itemize}
+
+
+\subsubsection*{Rubric}
+
+\begin{itemize}
+ \item{Pick a notebook at random from the group.  If the entire C-Level has not been attempted, dock 1 point from the group.}
+ \item{If the students just ``quit'' or otherwise have a bad attitude are are not staying on task, dock a point (or two) after a warning.}
+ \item{Other than these 2 things, assist the groups by asking leading questions as you see fit so they understand the C-level.  If they came prepared, worked hard, and got through the C-level, they get 4/4.}
+\end{itemize}
+
+
+\subsection*{Basic Lab (B-level)}
+
+The B-level should help reinforce that the acceleration of an object is proportional to the net force.  Of course, we're ``cheating'' here since the tension in the string is not the only horizontal force on the cart (there is likely some small amount of friction, and there could also be a small gravitational force component along the ramp of the ramp is not level).
+
+In previous years, students had a hard time understanding what exactly they were supposed to plot.  They often submitted a single plot with 5 different ``acceleration vs. Force'' lines on them, which is not what we want.  
+
+The purpose of the second sub-bullet (``How will you measure each quantity....'') is to prompt the students to think about how they will measure each force and acceleration pair (likely using the ``statistics'' feature to get the average force and its standard deviation for the uncertainty, and using the slope of the velocity curve and provided uncertainty for the acceleration).  Using the slope of the velocity curve will give much more precise result than averaging an acceleration vs. time plot.
+
+Some additional notes:
+
+\begin{itemize}
+\item{For the third sub-bullet, students should have at least 5 force and acceleration pairs.  For ``why?'', we're just looking for ``2 point is too few, since you can always fit a line to 2 points''.  Five is just a nice number that's more than 3 but less onerous than 10.}
+\item{Students need to zero the force probe before each run.}
+\item{As you are aware, the tension in the string (and thus the force that pulls the cart) is not equal to the weight of the mass that hangs off the side of the track (if it \textit{were}, then the weight pulling down on the mass would be cancelled by the tension pulling up, and the mass would just hang in mid-air!).}
+\item{Following from the previous bullet point, students need to pay careful attention to the region of interest (ROI) that they choose for their fits.  They should be able to clearly see that the force on the cart (tension in the string) decreases when the cart is let go (don't necessarily point this out, it's an A-level!)}
+\end{itemize}
+
+\subsubsection*{Rubric -- Lab Summary}
+
+There should be a single plot that the students submit, in addition to their sketch and free-body diagram (see the note at the top of the back page of the lab).
+
+For this lab, specifically, they should have:
+
+\begin{enumerate}
+ \item{
+  \begin{itemize}
+   \item{Some diagrams and numbers present, very minimal.}
+  \end{itemize}
+}
+ \item{
+  \begin{itemize}
+   \item{Plot of acceleration vs. force present, including labels and units}
+   \item{Some uncertainties missing}
+   \item{Reported results, but no interpretation}
+  % \item{No mention of the scale used}
+  \end{itemize}
+}
+ \item{
+  \begin{itemize}
+ %  \item{Stating what scale they used}
+   \item{All uncertainties present}
+   \item{Linear fit present on the plot}
+ %  \item{Two methods to determine uncertainties}
+   \item{Some physics, but no explicit mention of the model used to fit the accel vs force plot (missing ``we expected it to be linear since $a_x = \frac{F_{{\rm net},x}}{m}$'')}
+  \end{itemize}
+}
+ \item{
+  \begin{itemize}
+   \item{Explicit mention of $a_x = \frac{F_{{\rm net},x}}{m}$}
+   \item{Comparison of their slope (with uncertainties) to $1/m$}
+  \end{itemize}
+}
+\end{enumerate}
+
+
+\subsection*{Advanced/Extended Lab Ideas (A-level)}
+
+Students may pick a single A-level to do.  They do not need to stay with their in-class group (though many choose to).
+
+\begin{itemize}
+ \item{Both of the suggested A-levels this week give more practice with Newton's 2nd Law.}
+ \item{In the first suggestion, they would be producing a plot of acceleration vs. cart mass, where the ``pulling'' mass is held fixed.  This is a bit of a cheat, since changing the mass of the cart actually changes the tension in the rope, but since $a = m_h g / (m_h + m_c)$, as long as the hanging mass $m_h$ is much less than the mass of the cart $m_c$ they should find the cart mass and acceleration to be inversely proportional.}
+ \item{The second suggetion attempts to get them to realize that the tension pulling on the cart is less than the weight of the mass haning off the side (while the cart is accelerating).  They should measure this (comparing their forces with uncertainties to $mg$ for the masses) and explain it using the 2nd Law.}
+\end{itemize}
+
+\subsubsection*{Rubric -- Lab Summary}
+
+Follow the rubric on page 7 of the lab manual.  Since the students can choose any A-level, I won't be writing up a detailed rubric for every suggestion.  Hopefully, the B-level rubrics included here help to establish a good guideline.  If you have further questions, please ask!
+
+\label{LastPage}
+
+\end{document}
