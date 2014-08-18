@@ -27,23 +27,23 @@ Physics Concepts
 
 ## Conceptual (C-level) DONE BEFORE LAB
 
-Imagine you are watching someone bike down the street at a constant rate.
+**Useful resources: Simulations**
 
-- Describe in words the velocity and position as a function of time for the bike.
-- Draw graphs of both the position and velocity as a function of time for the bike.
-- Test your solution using the on-line simulation ("Moving Man") http://phet.colorado.edu/en/simulation/moving-man
+The simulations below are all free. They do *not* work on mobile devices. They should work on PC or Mac, though you may need to update java to run them. On the Mac you will likely need to download the simulation, then right-click on it in your downloads folder to open it.
 
-**Simulation:**
+- Moving Man (graphs of position and velocity): [http://phet.colorado.edu/en/simulation/moving-man](http://phet.colorado.edu/en/simulation/moving-man)
 
-- Can you create a "W" in the position vs time graph? How do you have to move the man? Use words such as "speed up", "slow down", "constant speed", "turn around", etc.
-- Can you create a "W" in the velocity vs time graph? How do you have to move the man?
+**Answer the questions in D2L/Sapling before lab: look for assignment "Pre-Lab 2"**
+
+
+## Basic Lab (B-level)
 
 **Explorations (Done In Lab):**
 
 - Use the motion detector to plot your movements, try to create a "W" in the position vs time plot. 
 - Try to make your position vs time plot look like the letter "N". Is there a part of the letter that is difficult? What type of motion is needed to produce this part of the letter?
 
-## Basic Lab (B-level)
+**Quantitative**
 
 - For at least two different speeds, graph the position as a function of time and velocity as a function of time for the cart on a flat track (this means 4 plots!) by giving the cart a brief push and letting go.
 - Clearly mark on your graph when you are touching the object. The region of interest (ROI) is the time when you are not touching the object.
