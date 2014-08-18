@@ -31,17 +31,12 @@ Physics Concepts
 
 ## Conceptual (C-Level) DONE BEFORE LAB
 
-You throw a heavy object off of a flat roof at an angle of approximately 45 degrees above the horizontal. Sketch the position, velocity and acceleration as a function of time in both the horizontal and vertical directions (this means you should have **6** plots!).
+**Useful resources: Simulations**
 
-- How would these graphs change if the object was much less massive but you threw it with the same velocity? State the reason for any changes (or why they won't change), and sketch the new plots in a different color (on top of the old ones).
+- Check your understanding by trying to hit a target with a projectile fired at different angles. [http://phet.colorado.edu/en/simulation/projectile-motion](http://phet.colorado.edu/en/simulation/projectile-motion)
 
-Simulation: 
+**Answer the questions in D2L/Sapling before lab: look for assignment "Pre-Lab 3"**
 
-- Check your understanding by trying to hit a target with a projectile fired at different angles. http://phet.colorado.edu/en/simulation/projectile-motion
-- Examine the velocity (green) and acceleration (blue) vectors for a particle in 2D. Run the linear and circular motion examples. http://phet.colorado.edu/en/simulation/motion-2d
-    - What happens to the velocity vector when the acceleration vector points in the same direction?
-    - What happens to the velocity vector when the acceleration vector points in the opposite direction?
-    - What happens to the velocity vector when the acceleration vector is perpendicular to the velocity vector?
 
 ## Basic Lab (B-level)
 
