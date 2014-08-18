@@ -65,16 +65,13 @@ When reporting best values and uncertainties, we will agree to use a slightly ar
 2. The larger uncertainty is 1.9 s. 
 3. The best values are therefore approximately one error bar apart. Applying the rule above, since the values are less than three error bars apart we would say the values are not significantly different, or that they "agree within experimental uncertainty"!
 
-**You answer these before lab:**
+**Answer the questions in D2L/Sapling before lab: look for assignment "Pre-Lab 1"**
 
-- Are the values 7.21 ± 0.01 m and 7.29 ± 0.01 m significantly different? Why? Sketch the error bars.
-- Do the values 0.25 ± 0.12 m and 0.45 ± 0.02 m agree within uncertainty? Why? Sketch the error bars.
+### Basic Lab (B-level): Putting it all together: Forensic Anthropology – Bone length
 
 **Uncertainty in sensor measurements – DONE IN LAB**
 
 Set up the force probe and Logger Pro. See the Logger Pro Manual for details. With a calibrated force probe, take several seconds of data and use the **statistic features** of LoggerPro to determine the uncertainty in the force measurements. Report your uncertainty.
-
-### Basic Lab (B-level): Putting it all together: Forensic Anthropology – Bone length
 
 Measure your femur (in cm) on yourself and record on your chart and on the board. You will record the class data as well. The equations below each bone are those used by forensic anthropologists to estimate height from a single bone. Record your actual height as well as your estimated height.
 
@@ -88,46 +85,7 @@ Create a plot in LoggerPro (NOT Excel!) of your measured femur lengths vs measur
 - Why do male and female measurements need to be analyzed separately?
 - Why should a forensic anthropologist use more than one bone (if possible) to determine the height of an individual?
 
-
-| Ind. | Femur Manual Column | Femur Error Manual Column | Actual Height Manual Column | Actual Height Error Manual Column | Est. Height Calculated Column |
-| --- | --- | --- | --- | --- | --- |
-| Females |  |  |  |  |  |
-|  |  |  |  |  | H = (L X 1.94) + 72.9 |
-| 1 |  |  |  |  |  |
-| 2 |  |  |  |  |  |
-| 3 |  |  |  |  |  |
-| 4 |  |  |  |  |  |
-| 5 |  |  |  |  |  |
-| 6 |  |  |  |  |  |
-| 7 |  |  |  |  |  |
-| 8 |  |  |  |  |  |
-| 9 |  |  |  |  |  |
-| 10 |  |  |  |  |  |
-| 11 |  |  |  |  |  |
-| 12 |  |  |  |  |  |
-| 13 |  |  |  |  |  |
-| 14 |  |  |  |  |  |
-| 15 |  |  |  |  |  |
-| 16 |  |  |  |  |  |
-| Males |  |  |  |  |  |
-|  |  |  |  |  | H = (L X 1.88) + 81.3 |
-| 17 |  |  |  |  |  |
-| 18 |  |  |  |  |  |
-| 19 |  |  |  |  |  |
-| 20 |  |  |  |  |  |
-| 21 |  |  |  |  |  |
-| 22 |  |  |  |  |  |
-| 23 |  |  |  |  |  |
-| 24 |  |  |  |  |  |
-| 25 |  |  |  |  |  |
-| 26 |  |  |  |  |  |
-| 27 |  |  |  |  |  |
-| 28 |  |  |  |  |  |
-| 29 |  |  |  |  |  |
-| 30 |  |  |  |  |  |
-| 31 |  |  |  |  |  |
-| 32 |  |  |  |  |  |
-
+![Table for femur data](anthro-lab-table.png)
 
 &copy; 2010--2014 Steve Lindaas, John Buncher and Sara Schultz
 
