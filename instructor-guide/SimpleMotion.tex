@@ -1,0 +1,131 @@
+\documentclass[fleqn,letterpaper]{article}
+\usepackage{fullpage}
+\usepackage[dvips]{graphicx}
+\usepackage{amssymb}
+\usepackage{fancyhdr}
+\usepackage[active]{srcltx}
+\addtolength{\parskip}{\baselineskip}
+\pagestyle{fancy}
+\headheight=12pt
+\parindent 0cm
+
+\begin{document}
+
+\lhead{\it Instructor's Lab Manual for Physics 160 }
+\cfoot{}
+\rhead{\it Page \thepage~of \pageref{LastPage} }
+\headsep=25pt
+%\baselineskip=12pt
+
+\section*{Simple Motion}
+
+\subsection*{Additional Equipment}
+
+\begin{itemize}
+  \item{The additional items listed should have been removed, the students will only use the carts.}
+\end{itemize}
+
+\subsection*{Objective}
+
+Students should gain familiarity using the motion detector and interpreting position/velocity/acceleration vs time plots, and how they are related to one another.  They will also use the ``three error bars'' rule for judging if two quantities are in agreement (usually a slope and average, or area under curve and a change in value).
+
+While the students should have done some reading, they do not yet have in-class experience with:
+\begin{itemize}
+ \item{plots of position/velocity/acceleration}
+ \item{the slope of position vs time giving the velocity}
+ \item{the slope of velocity vs time giving the acceleration}
+ \item{the area under velocity vs time giving the change in position}
+ \item{the area under acceleration vs time giving the change in velocity}
+\end{itemize}
+
+Most of these topics will be covered on Wednesday, and the lab is intended to complement the lectures.
+
+\subsection*{Conceptual (C-level) (Done BEFORE Lab)}
+
+\begin{itemize}
+ \item{Something along the lines of ``position increases at a constant rate'' and ``the velocity is constant'' is what we are looking for.}
+ \item{The plots should be correct (line with a constant slope for position vs time, and a flat/horizontal line for velocity vs time).  Students often say a ``straight line'' when they mean flat/horizontal line.  Since ``straight line'' would also work for a line of constant slope, they are encouraged to use ``flat/horizontal'' to describe plots where the value is constant.}
+ \item{To create the ``W'' in the position vs time plot, the man needs to be moved backward at a constant rate, forward at a constant rate, backward at a constant rate, and then forward at a constant rate.}
+ \item{One solution:  To create the ``W'' in the velocity plot, the man needs to move forward while slowing down at a constant rate, then forward while speeding up at a constant rate, then forward while slowing down at a constant rate, then forward while speeding up at a constant rate.  This one is very difficult for the students to understand.  It may help to have the students walk in front of the motion detector to replicate the ``W'' in the velocity plot.}
+ \item{The vertical lines in ``N'' would be difficult, because you would have to move at an infinitely fast speed.  Another way to present this to the students is to have them think about what a vertical line on a position vs time plot would mean: the object would be at many different spots at the same time!}
+\end{itemize}
+
+\subsubsection*{Rubric}
+
+\begin{itemize}
+ \item{Pick a notebook at random from the group.  If the entire C-Level has not been attempted, dock 1 point from the group.}
+ \item{If the students just ``quit'' or otherwise have a bad attitude are are not staying on task, dock a point (or two) after a warning.}
+ \item{Other than these 2 things, assist the groups by asking leading questions as you see fit so they understand the C-level.  If they came prepared, worked hard, and got through the C-level, they get 4/4.}
+\end{itemize}
+
+
+\subsection*{Basic Lab (B-level)}
+
+The B-level gives the students practice interpreting real data for position and velocity vs time plots.  This lab is the first one where the students need to think about he the region of interest (ROI) of the plots.  A critical (and not trivial) skill that the students need to learn is how to pick out the relevant data from the plots.
+
+\begin{itemize}
+\item{The push should be hard enough to get the cart to the other end of the track.  Their two speeds should be visibly different on their plots.  As long as they are clearly labeled, they may put the two ``position'' data sets on the same plot, and the two ``velocity'' data sets on another plot (2 graphs, 4 data sets).}
+\item{The students will need to carefully watch the plot while they move the cart to understand where the ROI is.  Since the tracks are flat, the ROI should be during the periods of acceleration at the beginning and end of the run.}
+\item{Position should have constant slope, velocity should be flat.}
+\item{Students should measure the slope of position vs time (for the ROI only) using ``Curve Fit'', and compare this with the average value of the velocity plot over the same ROI.}
+\item{Repeat the above for comparing the acceleration and velocity plots.}
+\item{For ``something vs time'' plots in LoggerPro, students do not need to add error bars to the data points generated by the sensors/probes.  However, we do want them to recognize the uncertainty in the fitted values.  This ties in with the uncertainties in the model from last week's lab.}
+\end{itemize}
+
+\subsubsection*{Rubric -- Lab Summary}
+
+This rubric applies to the lab summary the students will hand in at the beginning of the following lab (one per lab group).  Page 3 has a description of what a good lab summary contains, and there are generic rubrics found in the front of the lab manual.  For this lab, specifically, they should have:
+
+\begin{enumerate}
+ \item{
+  \begin{itemize}
+   \item{Some plots and numbers present, very minimal.}
+  \end{itemize}
+}
+ \item{
+  \begin{itemize}
+   \item{All plots present, described, labeled correctly (including units)}
+   \item{Some fit/averages present on the plots}
+   \item{Some uncertainties missing}
+   \item{Reported results, but no interpretation}
+  \end{itemize}
+}
+ \item{
+  \begin{itemize}
+   \item{All uncertainties present}
+   \item{All fits/averages present on the plots}
+   \item{Some of the slope/avg comparisons done.}
+   \item{Some physics, but no explicit mention of $\Delta x = v_x \Delta t$}
+  \end{itemize}
+}
+ \item{
+  \begin{itemize}
+   \item{They should state that they expect there to be a linear relationship between position and time (at constant $v$), given by $\Delta x = v_x \Delta t$}
+   \item{They should state that they expect there to be a quadratic relationship between position and time (at constant $a$), given by $\Delta x = v_x \Delta t + \frac{1}{2}a_x \Delta t^2$}
+   \item{They correctly compare (using uncertainties):
+    \begin{itemize}
+    \item{the slope of $x$ vs $t$ with the average value of $v_x$ for both constant rate plots}
+    \item{the slope of $v_x$ vs $t$ with the average value of $a_x$ vs $t$ for each ``incline'' plot}
+    \end{itemize}}
+  \end{itemize}
+}
+\end{enumerate}
+
+
+\subsection*{Advanced/Extended Lab Ideas (A-level)}
+
+Students may pick a single A-level to do.  They do not need to stay with their in-class group (though many choose to).  
+
+\begin{itemize}
+ \item{The first two suggestions ask them to investigate how the ``area under the curve'' gives a ``change in'' value from a different plot.  The question about units is meant to guide them towards this.  For example, the area under the acceleration vs time curve has units of ${\rm m/s^2} \times {\rm s} = m/s$, the units of velocity.  Students should pick 5 different ROIs in which to make their comparisons.  For example, if the ROI is from 1s to 4s, they could choose 1s-4s, 1.5s-3s, 2.0s-4s, etc.}
+ \item{The third suggestion asks them to investigate the relation between the angle of the track and the velocity of the cart as a function of time.  If the students can explain that the acceleration increases with $\sin \theta$, that would be fantastic (and worth a ``4'').}
+ \item{The fourth suggestion asks the students to think about the ROI a bit more, and make the connection that there is some type of ``push'' acting on the cart when the track is inclined, by specifically noting that the position vs time does not follow $\Delta x = v_x \Delta t$}
+\end{itemize}
+
+\subsubsection*{Rubric -- Lab Summary}
+
+Follow the rubric on page 7 of the lab manual.  Since the students can choose any A-level, I won't be writing up a detailed rubric for every suggestion.  Hopefully, the B-level rubrics included here help to establish a good guideline.  If you have further questions, please ask!
+
+\label{LastPage}
+
+\end{document}

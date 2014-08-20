@@ -1,0 +1,183 @@
+\documentclass[fleqn,letterpaper]{article}
+\usepackage{fullpage}
+\usepackage[dvips]{graphicx}
+\usepackage{amssymb}
+\usepackage{fancyhdr}
+\usepackage[active]{srcltx}
+\addtolength{\parskip}{\baselineskip}
+\pagestyle{fancy}
+\headheight=12pt
+\parindent 0cm
+
+\begin{document}
+
+\lhead{\it Instructor's Lab Manual for Physics 160 }
+\cfoot{}
+\rhead{\it Page \thepage~of \pageref{LastPage} }
+\headsep=25pt
+%\baselineskip=12pt
+
+\section*{Efficiency and Sustainable Populations}
+
+\subsection*{Additional Equipment}
+
+\begin{itemize}
+  \item{No extra equipment is needed, though students will need access to the internet (or other suitable references) to look up much of the information for this lab}
+\end{itemize}
+
+\subsection*{Objective}
+
+This lab intends to build the student's skills with:
+%
+\begin{itemize}
+ \item{Constructing a model using estimation}
+ \item{Unit Conversions}
+ \item{Power}
+ \item{Efficiency}
+ \item{Estimating Uncertainties}
+\end{itemize}
+%
+
+\subsection*{Conceptual (C-level) (Done BEFORE Lab)}
+
+The intent of the C-Level is to give the students practice with a small version of the problem, while prompting them to look up values needed for the B-Level.  This is put in the C-Level (rather than the B-Level) so that students come to their groups with their \textbf{own} values, rather than letting one person find a single value for the group (which is what would likely happen if they were asked to do it during B-Level).  The range of values students arrive with will help inform their uncertainty analysis.
+
+\begin{itemize}
+ \item{On the first bullet point, students are asked to:
+  \begin{itemize}
+   \item{Use an online calorie calculator to estimate the number of Calories they need to consume per day.  For the purposes of the ``example'' calculation in this document, we'll use a typical value of 2000 Calories per day.} 
+   \item{Convert from Calories to Joules.  Converting from ``Calories'' to ``calories'' is a factor of 1000, and the conversion from calories to Joules is $1~{\rm cal} = 4.19~{\rm J}$, so our person requires $8.38 \times 10^6~{\rm J/day}$.}
+  \end{itemize}
+}
+ \item{The second bullet point asks students to:
+ \begin{itemize}
+ \item{Look up the term ``insolation'', it stands for INcident SOLar radiATION.  This is the power per unit area delivered by the Sun to the surface of the Earth, typical units are ${\rm J}/{\rm m^2 \cdot day}$ or ${\rm kW \cdot hr/(m^2\cdot day)}$.}
+ \item{Find a ``typical'' value for the insolation.  For the continental US, values range from roughly 4 to 6.5~${\rm kW \cdot hr/(m^2\cdot day)}$.  For the purposes for this document, we'll go with 6~${\rm kW \cdot hr/(m^2\cdot day)}$}
+ \end{itemize}}
+ \item{For the third bullet point, we ask students to find how many square meters of land they would need to ``farm'' if they could convert the solar energy directly to caloric intake, with no losses.  For our sample person, we find:
+ \begin{eqnarray}
+  {\rm Area} = \frac{8.38 \times 10^6~{\rm J/day}}{6~{\rm kW \cdot hr/(m^2\cdot day)}}
+  = \frac{8.38 \times 10^6~{\rm J \cdot m^2}}{6000~{\rm W \cdot hr}} = \frac{8.38 \times 10^6~{\rm J\cdot m^2}}{6000~{\rm J/s \cdot 3600 s}} = \frac{8.38 \times 10^6~{\rm m^2}}{6000\cdot 3600} \\
+  {\rm Area} = 0.39~{\rm m^2}
+ \end{eqnarray}
+ Typical values will be roughly 0.25 to 0.5 square meters.
+}
+  \item{The last two bullet points ask the students to find:
+    \begin{itemize}
+    \item{A typical value for the efficiency of photosynthesis:  values should be around 1\%, with the most efficient plant (sugar cane) around 8\%, and the least efficient around 0.1~\%.  We will assume (for this guide) a value of 1\%.  The students are free to use any reasonable value, as long as they justify it (this can be re-examined when discussing uncertainties).}
+    \item{The term ``trophic level'' and ``the 10\% rule''.  My ``physicists description'' of a trophic level is that it describes roughly where you are in the food chain, From Wikipedia:
+    \begin{itemize}
+    \item{Level 1: ``Primary producers'' -- basically plants and algae}
+    \item{Level 2: ``Primary consumers'' -- Herbivores (rabbits, etc.)}
+    \item{Level 3: ``Secondary consumers'' -- Carnivores that eat herbivores (fox eats rabbit)}
+    \item{Level 4:  ``Tertiary consumers'' -- Carnivores that eat carnivores (eagle eats fox)}
+    \item{....and so on, we'll only need Levels 2 and 3}.
+    \end{itemize}}
+    \item{``The 10\% Rule'' governs the efficiency of biomass transfer:  When energy is transferred from one trophic level to another, only about 10\% of the chemical energy is converted to new organic tissue.}
+    \end{itemize}}
+ \end{itemize}
+
+\subsubsection*{Rubric}
+
+\begin{itemize}
+ \item{Pick a notebook at random from the group.  If the entire C-Level has not been attempted, dock 1 point from the group.}
+ \item{If the students just ``quit'' or otherwise have a bad attitude are are not staying on task, dock a point (or two) after a warning.}
+ \item{Other than these 2 things, assist the groups by asking leading questions as you see fit so they understand the C-level.  If they came prepared, worked hard, and got through the C-level, they get 4/4.}
+\end{itemize}
+
+
+\subsection*{Basic Lab (B-level)}
+
+I anticipate this taking up the majority of the time. This lab is COMPLETELY NEW, so feel free to augment/explain where you feel is needed, I'm looking forward to any and all feedback!
+
+B-Level has the students account for the fact that we eat plants and animals (one step at a time), and has them scale up their required area accordingly.
+
+
+\begin{itemize}
+\item{The first bullet point:
+  \begin{itemize}
+  \item{asks the students to use the information they found about photosynthesis and the 10\% rule to find the new area required to feed them, assuming that they only eat Calories derived from plants.}
+  \item{The plants only convert 1\% of the solar energy to chemical energy in the plant, and when we eat the plant we only acquire 10\% of that, so this scales our original area up by a factor of 1000:
+  \begin{equation}
+   {\rm Area}_{\rm plants} = 0.39~{\rm m^2} \times 1000 = 388~{\rm m^2}
+  \end{equation}
+}
+  \end{itemize}}
+  
+\item{The second bullet point:
+  \begin{itemize}
+  \item{asks the students to account for the fact that we can't grow plants year-round, so we need to store extra energy during the growing season to account for non-growing months.  I'll assume a growing season of 4 months, so I need to collect 3 times as much energy, which increases the required area by a factor of 3:
+  \begin{equation}
+   {\rm Area}_{\rm plants,grow} = 3 {\rm Area}_{\rm plants} = 3\times 388~{\rm m^2} = 1164~{\rm m^2}
+  \end{equation}
+}
+  \end{itemize}}
+\item{The third bullet point asks the students to estimate the percentage of their diet that is meat-derived and plant-derived.  For our model person, we'll assume 70\% plant, and 30\% animal.}
+\item{The fourth bullet point asks them to find new area required, accounting for meat.  Since calories from meat come from one tropic level further up/down the food chain, we need to multiply the ``meat area'' by another factor of 10:
+  \begin{eqnarray}
+   {\rm Area}_{\rm total} & = & {\rm Area}_{\rm plant-based} + {\rm Area}_{\rm meat-based} \\
+   & = & 0.7 {\rm Area}_{\rm plants,grow} + 10\cdot0.3\cdot{\rm Area}_{\rm plants,grow} \\
+   & = & 3.7 {\rm Area}_{\rm plants,grow}  \\
+   & = & 3.7 \cdot1164~{\rm m^2} \\
+   {\rm Area}_{\rm total} & = & 4300~{\rm m^2} 
+  \end{eqnarray}
+}
+\item{The last set of bullet points asks the students to use an average of their group's area to find the total population sustainable by the Earth.  The total arable land (from one source I found) was 31.8 million square kilometers, which works out to 7.4 billion people that the planet can support (we're at roughly 7.2 billion right now....)}
+\end{itemize}
+
+\subsubsection*{Rubric -- Lab Summary}
+
+There students will be handing in their worked up solution, with explanations.
+
+For this lab, specifically, they should have:
+
+\begin{enumerate}
+ \item{
+  \begin{itemize}
+   \item{Some numbers and calculations present, no explanation.}
+  \end{itemize}
+}
+ \item{
+  \begin{itemize}
+   \item{All numbers and calculations present/correct, no explanations.}
+  % \item{No mention of the scale used}
+  \end{itemize}
+}
+ \item{
+  \begin{itemize}
+ %  \item{Stating what scale they used}
+   \item{All numbers/calculations correct/present, along with explanations at each step.}
+  \end{itemize}
+}
+ \item{
+  \begin{itemize}
+   \item{Discussion of their uncertainties (what the assumptions were, and what effect it had on the final outcome). }
+  \end{itemize}
+}
+\end{enumerate}
+
+
+\subsection*{Advanced/Extended Lab Ideas (A-level)}
+
+The A-Level suggests two different follow-ups:
+
+A few notes:
+
+\begin{itemize}
+ \item{Students can repeat the calculation by refining 2 of the numbers used (but not the one they already looked at for ``Uncertainties'' in the B-Level): perhaps most people don't have the same meat/plant split, or most people need fewer calories, or the insolation value was too high, etc.}
+ \item{They can identify as many assumptions as they can that went into the model, and discuss implications.  Some implicit assumptions are:
+ \begin{itemize}
+ \item{We assume that enough arable land for food is the only requirement for a sustainable population (we haven't worried about water, supplies, shelter, etc.)}
+ \item{This model completely neglects the energy cost of getting the food to your belly!  There would be additional ``hits'' to efficiency in the transportation of food.}
+ \item{The model assumes that the amount of arable land is constant.  It is likely decreasing....}
+ \item{Anything they can think of along these lines is appropriate}
+ \end{itemize}}
+\end{itemize}
+
+\subsubsection*{Rubric -- Lab Summary}
+
+Follow the rubric on page 7 of the lab manual.  Since the students can choose any A-level, I won't be writing up a detailed rubric for every suggestion.  Hopefully, the B-level rubrics included here help to establish a good guideline.  If you have further questions, please ask!
+
+\label{LastPage}
+
+\end{document}

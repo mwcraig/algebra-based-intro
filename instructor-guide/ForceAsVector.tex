@@ -1,0 +1,124 @@
+\documentclass[fleqn,letterpaper]{article}
+\usepackage{fullpage}
+\usepackage[dvips]{graphicx}
+\usepackage{amssymb}
+\usepackage{fancyhdr}
+\usepackage[active]{srcltx}
+\addtolength{\parskip}{\baselineskip}
+\pagestyle{fancy}
+\headheight=12pt
+\parindent 0cm
+
+\begin{document}
+
+\lhead{\it Instructor's Lab Manual for Physics 160 }
+\cfoot{}
+\rhead{\it Page \thepage~of \pageref{LastPage} }
+\headsep=25pt
+%\baselineskip=12pt
+
+\section*{Force as Vectors}
+
+\subsection*{Additional Equipment}
+
+\begin{itemize}
+  \item{The force tables should already be set up with four pulley clamps each, with the hooked masses (20g, 10g, and 5g increments on a 50g holder).}
+\end{itemize}
+
+\subsection*{Objective}
+
+This lab intends to build the student's skills with:
+%
+\begin{itemize}
+ \item{adding and subtracting forces as vectors (2-D)}
+ \item{applying Newton's 2nd Law to static equilibrium ($\vec{F}_{\rm net} = 0$)}
+ \item{drawing free-body diagrams}
+ \item{Estimating Uncertainties}
+ \item{Comparing predicted and measured values, based on uncertainties.}
+\end{itemize}
+%
+
+\subsection*{Conceptual (C-level) (Done BEFORE Lab)}
+
+Most students will have questions on this, which is fine.  While they have worked with vectors before (adding, subtracting, finding components), they have not yet done so in the context of forces (other than graphically).  Section 5.1 in Knight (their text) will be a good resource to point them to.
+
+The final ``general formula'' should have the following elements.  We will use $\vec{F}_b$ for the force from the braces, $\vec{F}_t$ for the force from the teeth, and $\vec{F}_{\rm gum}$ for the force from the gums.  We will let $\theta = 30$~degrees west of north, and $\phi$ will be the direction of $\vec{F}_{\rm gum}$, measured up from the x-axis.
+
+\begin{eqnarray*}
+ F_{{\rm gum},x} & = & + |\vec{F}_t| \sin \theta \\
+ F_{{\rm gum},y} & = & +|\vec{F}_b| - |\vec{F}_t| \cos \theta \\
+ |\vec{F}_{\rm gum}| & = & \sqrt{F_{{\rm gum},x}^2 + F_{{\rm gum},y}^2} \\
+ \tan \phi & = & \frac{F_{{\rm gum},y}}{F_{{\rm gum},x}}
+\end{eqnarray*}
+
+I anticipate getting to this point will take a good deal of time, as most will want to plug in numbers right away.  We want to emphasize not plugging in numbers until the end, though for the 160 students I think it is appropriate to let them find a number for $ F_{{\rm gum},x}$ and $ F_{{\rm gum},y}$, then use those to get $|\vec{F}_{\rm gum}|$ and $\phi$.
+
+\subsubsection*{Rubric}
+
+\begin{itemize}
+ \item{Pick a notebook at random from the group.  If the entire C-Level has not been attempted, dock 1 point from the group.}
+ \item{If the students just ``quit'' or otherwise have a bad attitude are are not staying on task, dock a point (or two) after a warning.}
+ \item{Other than these 2 things, assist the groups by asking leading questions as you see fit so they understand the C-level.  If they came prepared, worked hard, and got through the C-level, they get 4/4.}
+\end{itemize}
+
+
+\subsection*{Basic Lab (B-level)}
+
+The B-level will let the students test their predictions from the C-level.  This should be fairly straightforward, though there are a few points to note:
+
+\begin{itemize}
+\item{Students need to pick an appropriate scale.  Given the range of forces involved in C-Level, I found that 1 N = 200 g worked out quite well.  Any larger and there isn't enough space on the hooks to add more masses, and any less and it will be difficult to measure the uncertainty (no 1 g masses, just 5 g ones).}
+\item{The students can't remove the central pin (it's fixed to the force tables).  Instead, they should see if they can position the center ring so that it does not touch the center pin.}
+\item{Two methods to determine the uncertainty:  One would be to add/remove masses to get a range for the magnitude, and to move the pulley left/right to get a range for the angle.  Alternatively, they could attach the string (without their mass) to a force probe, and find a range of angles/magnitudes using LoggerPro.  Using a 1 N = 200 g scale, I found the uncertainties to be $\pm 5$g and $\pm 3$ degrees.}
+\end{itemize}
+
+\subsubsection*{Rubric -- Lab Summary}
+
+In contrast to previous labs, in this one there is no plot!  The first bullet point in B-Level hits most of what they need to submit (their choice of scale, the masses and angles used on the table), and they should also include their C-level calculation as well as a discussion of how they determined their uncertainties.
+
+For this lab, specifically, they should have:
+
+\begin{enumerate}
+ \item{
+  \begin{itemize}
+   \item{Some diagrams and numbers present, very minimal.}
+  \end{itemize}
+}
+ \item{
+  \begin{itemize}
+   \item{Some uncertainties missing}
+   \item{Reported results, but no interpretation}
+   \item{No mention of the scale used}
+  \end{itemize}
+}
+ \item{
+  \begin{itemize}
+   \item{Stating what scale they used}
+   \item{All uncertainties present}
+   \item{Two methods to determine uncertainties}
+   \item{Correct comparison of C-Level prediction with B-Level results}
+  \end{itemize}
+}
+ \item{
+  \begin{itemize}
+   \item{Discussion of how they used $\vec{F}_{\rm net} = 0$ to find the force.}
+  \end{itemize}
+}
+\end{enumerate}
+
+
+\subsection*{Advanced/Extended Lab Ideas (A-level)}
+
+Students may pick a single A-level to do.  They do not need to stay with their in-class group (though many choose to).
+
+\begin{itemize}
+ \item{The single A-Level in this week's lab broadens out the vector skills by having them move one of the existing masses by 30 degrees, and then finding the new vector needed to bring the system into equilibrium.  They should follow the same procedure as B-Level.}
+\end{itemize}
+
+\subsubsection*{Rubric -- Lab Summary}
+
+Follow the rubric on page 7 of the lab manual.  Since the students can choose any A-level, I won't be writing up a detailed rubric for every suggestion.  Hopefully, the B-level rubrics included here help to establish a good guideline.  If you have further questions, please ask!
+
+\label{LastPage}
+
+\end{document}

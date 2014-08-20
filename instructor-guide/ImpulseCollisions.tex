@@ -1,0 +1,159 @@
+\documentclass[fleqn,letterpaper]{article}
+\usepackage{fullpage}
+\usepackage[dvips]{graphicx}
+\usepackage{amssymb}
+\usepackage{fancyhdr}
+\usepackage[active]{srcltx}
+\addtolength{\parskip}{\baselineskip}
+\pagestyle{fancy}
+\headheight=12pt
+\parindent 0cm
+
+\begin{document}
+
+\lhead{\it Instructor's Lab Manual for Physics 160 }
+\cfoot{}
+\rhead{\it Page \thepage~of \pageref{LastPage} }
+\headsep=25pt
+%\baselineskip=12pt
+
+\section*{Impulse and Collisions}
+
+\subsection*{Additional Equipment}
+
+\begin{itemize}
+  \item{the bouncy (``happy'') and non-bouncy (``unhappy'') balls are set out by Dana}
+  \item{there is a Newton's cradle available for the students to test their C-Level predictions}
+\end{itemize}
+
+\subsection*{Objective}
+
+This lab intends to build the student's skills with:
+%
+\begin{itemize}
+ \item{Momentum:  $\vec{p} = m\vec{v}$}
+ \item{Impulse:  $\vec{J} = \vec{F} \Delta t$}
+ \item{Momentum Impulse Theorem:  $\vec{J} = \Delta \vec{p}$ }
+ \item{Vector Reasoning (directions matter!)}
+ \item{Estimating Uncertainties - Areas Under the Curve}
+ \item{Comparing measurements using uncertainties}
+\end{itemize}
+%
+
+\subsection*{Conceptual (C-level) (Done BEFORE Lab)}
+
+The intent of the C-Level is to give the students practice with conceptual ideas of momentum and impulse.  The first part, predicting which ball would exert a larger force on another object, can be done in the following way:
+
+\begin{itemize}
+ \item{It should be clarified that the balls are being thrown at the ``object'' we wish to produce the greatest force on.  I'll put a diagram on the board in the morning to illustrate.}
+ \item{We want to compare the forces exerted on the object by each of the balls.  By the third law, this is equal in size to the force the object exerts on the balls.}
+ \item{To compare the forces, we can use the definition of impulse, $\vec{F} = \vec{J}/\Delta t$.  Since we are told that the $\Delta t$'s are the same in each collision, we can compare the forces by comparing the impulses. }
+ \item{To compare the impulses, we look at the change in momentum, $\vec{J} = m\vec{v}_f - m\vec{v}_i$.}
+ \item{Taking ``away'' from the object to be the ``positive'' direction (and ``towards'' as the ``negative'' direction), we find the change in momentum for the clay ball as:
+  \begin{eqnarray*}
+   \Delta p_{x,c} = m v_{f,x,c} - m v_{i,x,c} \\
+   \Delta p_{x,c} = 0 - m (-|\vec{v}_i|) \\
+   \Delta p_{x,c} =  m |\vec{v}_i| \\
+  \end{eqnarray*}
+  where we have called the initial speed of the ball $|\vec{v}_i|$ and used the fact that the final speed was zero (or at least very small, clay doesnt bounce!)}
+ \item{We can do the same thing for the rubber ball:
+ \begin{eqnarray*}
+   \Delta p_{x,r} = m v_{f,x,r} - m v_{i,x,r} \\
+   \Delta p_{x,r} = m |\vec{v}_f| - m (-|\vec{v}_i|) \\
+   \Delta p_{x,r} =  m( |\vec{v}_f| + |\vec{v}_i|) \\
+  \end{eqnarray*}
+ where we have used $|\vec{v}_f|$ as the final speed of the rubber ball.}
+ \item{Comparing the two results, we see that the rubber ball has a larger impulse exerted on it, and thus a larger force was exerted on it, and thus it exerted a larger force on the object.  This is because while $m$ and $\Delta t$ were the same for both balls, the rubber ball had a larger \textit{change} in velocity compared to the clay ball.}
+ \item{IMPORTANT:  The momentum of either ball is NOT conserved in this collision!  If we take a single ball as the system, then there is definitely an external force from the object during the collision, so momentum is not conserved (students may have trouble with this point).}
+\end{itemize}
+ 
+For the second bullet-point (Newton's Cradle), keep in mind:
+
+\begin{itemize}
+ \item{With no outisde net horizontal force, the momentum of the 5 metal balls is conserved in the collision}
+ \item{We have NOT covered energy yet (we're covering it this week), so students do not yet know about conservation of energy}
+ \item{Without conservation of energy, students cannot predict exactly what would happen (that the 3 balls on the end will move forward, and 2 that were swinging will remain still).}
+ \item{Students CAN predict a few possibilities: one ball could move forward with 3 times the speed of the first 3, three balls could move forward with the same speed, etc. (anything that conserves momentum is OK).  You can mention to the students that the other tool that they would need to choose from those three will be introduced when they learn about conservation of energy.}
+\end{itemize}
+
+
+\subsubsection*{Rubric}
+
+\begin{itemize}
+ \item{Pick a notebook at random from the group.  If the entire C-Level has not been attempted, dock 1 point from the group.}
+ \item{If the students just ``quit'' or otherwise have a bad attitude are are not staying on task, dock a point (or two) after a warning.}
+ \item{Other than these 2 things, assist the groups by asking leading questions as you see fit so they understand the C-level.  If they came prepared, worked hard, and got through the C-level, they get 4/4.}
+\end{itemize}
+
+
+\subsection*{Basic Lab (B-level)}
+
+This is pretty straightforward: students will measure the impulse exerted on the two different types of balls, and see which one experiences a larger impulse.  Additionally, they will test the impulse-momentum theorem.
+
+Some additional notes:
+
+\begin{itemize}
+\item{There is a note in the manual about changing the data collection rate so that the force probes get enough readings.  If the readings are ``trangles'', then the data collection rate needs to be increased.}
+\item{Students will need to be careful to not go over the force probe range, the collisions will be fairly gentle.}
+\item{Students will need to find a way to estimate the uncertainty in the ``area-under-the-curve'' impulse, as LoggerPro does not provide uncertainties for numerical integrations.  A reasonable method would be to move the ``brackets'' one data point to the left and to the right to get a range of values (essentially putting the uncertainty in ``when the collision starts and stops'').}
+\item{A similar method can be used when assessing the uncertainty in the change in momentum.  Typically averaging a few data points before and after the collision to get the velocities will be sufficient.}
+\item{On the last bullet point (``Compare...'') students need to compare 2 things for all of the inclines:  Do their impulses agree (within uncertainty) with their change-in-momenta, and are these different between the two different types of balls?}
+\item{Students should submit a table of their measurements, and a ``sample plot'' illustrating how they obtained their data.}
+\end{itemize}
+
+\subsubsection*{Rubric -- Lab Summary}
+
+There should be a single plot that the students submit (Diameter vs. length) with a single data set.
+
+For this lab, specifically, they should have:
+
+\begin{enumerate}
+ \item{
+  \begin{itemize}
+   \item{Some diagrams and numbers present, very minimal.}
+  \end{itemize}
+}
+ \item{
+  \begin{itemize}
+   \item{Plot present showing how they obtained the impulse and change in momentum}
+   \item{Some uncertainties missing}
+   \item{Reported results, but no interpretation}
+  % \item{No mention of the scale used}
+  \end{itemize}
+}
+ \item{
+  \begin{itemize}
+ %  \item{Stating what scale they used}
+   \item{Interpreted results (``Our results indicate that the impulse is equal to the change in momentum, and the rubber ball experienced a larger impulse'', etc.}
+   \item{All uncertainties present (and used in their comparisons/interpretations)}
+   \item{Some physics, but no explicit mention of the C-Level or the impulse-momentum theorem.}
+  \end{itemize}
+}
+ \item{
+  \begin{itemize}
+   \item{Explicit mention of C-level result (bouncy ball gets larger force), as well as that the impulse and change in momentum shoul be equal.  This should be mentioned in the context of assessing/interpreting their results.}
+   \item{Discussion of how they obtained the uncertainties.}
+  \end{itemize}
+}
+\end{enumerate}
+
+
+\subsection*{Advanced/Extended Lab Ideas (A-level)}
+
+The A-Level suggests that the students investigate momentum and energy during collisions between two carts (various mass configurations).  Students should be able to borrow any parts needed (I can't remember which, but there is either only 1 motion detector or 1 cart at each station, and they will need 2 of each).
+
+A few notes:
+
+\begin{itemize}
+ \item{Students should do some testing before taking data!  Specifically, they should set up the carts/sensors, click ``collect'', then move a single cart back and forth and see if it shows up correctly in the motion plot.  Then they should repeat for the other cart, then for both carts.  This can be tricky.}
+ \item{It will be best if students create ``calculated columns'' for the momentum and energy.  Students can put the mass of the cart in as a ``parameter'' in LoggerPro.  The momentum plots you can get from this are quite neat!}
+ \item{As usual, if the students propose something and you feel it is appropriate, let them go for it!}
+\end{itemize}
+
+\subsubsection*{Rubric -- Lab Summary}
+
+Follow the rubric on page 7 of the lab manual.  Since the students can choose any A-level, I won't be writing up a detailed rubric for every suggestion.  Hopefully, the B-level rubrics included here help to establish a good guideline.  If you have further questions, please ask!
+
+\label{LastPage}
+
+\end{document}

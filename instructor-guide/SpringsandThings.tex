@@ -1,0 +1,213 @@
+\documentclass[fleqn,letterpaper]{article}
+\usepackage{fullpage}
+\usepackage[dvips]{graphicx}
+\usepackage{amssymb}
+\usepackage{fancyhdr}
+\usepackage[active]{srcltx}
+\addtolength{\parskip}{\baselineskip}
+\pagestyle{fancy}
+\headheight=12pt
+\parindent 0cm
+
+\begin{document}
+
+\lhead{\it Instructor's Lab Manual for Physics 160 }
+\cfoot{}
+\rhead{\it Page \thepage~of \pageref{LastPage} }
+\headsep=25pt
+%\baselineskip=12pt
+
+\section*{Springs and Things}
+
+\subsection*{Additional Equipment}
+
+\begin{itemize}
+  \item{the springs should be out on the center table.  There are longer ones (which work fine for the B-level) and shorter ones (which work great for testing parallel/series combinations in the A-Level)}
+  \item{Mass hangers with masses should be in their storage areas}
+\end{itemize}
+
+\subsection*{Objective}
+
+This lab intends to build the student's skills with:
+%
+\begin{itemize}
+ \item{Hooke's Law and spring constants (the ``elastic potential energy'' mentioned right above the C-Level should be deleted, it's a typo)}
+ \item{Estimating Uncertainties}
+ \item{Using a fit to determine the oscillation frequency (and thus the spring constant) of a spring-mass system}
+\end{itemize}
+%
+
+\subsection*{Conceptual (C-level) (Done BEFORE Lab)}
+
+The wording in the C-Level is new this year, attempting to give the students some more scaffolding when finding the effective spring constants for springs in series and parallel.  Suggestions/feedback on how to improve them or what the students found difficult are welcome.
+
+The highlights of the C-Level are:
+
+\begin{itemize}
+ \item{A single spring with spring constant $k$ holding a mass (at rest) vertically would stretch by $\Delta x$, given by Newton's 2nd Law for the hanging mass:
+ \begin{eqnarray}
+  F_{y,{\rm net}} & = & m a_y \\
+  +k \Delta x - m g & = & m \cdot 0 \\
+  \Delta x & = & \frac{m g}{k}
+ \end{eqnarray}}
+ \item{For two springs of spring constant $k$ in parallel, each will stretch some $\Delta x_{\rm par}$, and each pulls on the hanging mass.  Using Newton's 2nd:
+  \begin{eqnarray}
+    F_{y,{\rm net}} & = & m a_y \\
+  +k \Delta x_{\rm par} + k \Delta x_{\rm par} - m g & = & m \cdot 0 \\
+  2 k \Delta x_{\rm par} & = & mg \\
+  \Delta x_{\rm par} & = & \frac{1}{2} \frac{mg}{k} = \frac{1}{2} \Delta x
+  \end{eqnarray}
+  so with 2 springs in parallel, they only stretch half of the distance of the single spring.
+}
+ \item{We now want a single spring with spring constant $k_{\rm par}$ that will only stretch $\Delta x_{\rm par}$ when the mass $m$ is hung from it.  Using Newton's 2nd,
+  \begin{eqnarray}
+    F_{y,{\rm net}} & = & m a_y \\
+  +k_{\rm par} \Delta x_{\rm par}  - m g & = & m \cdot 0 \\
+  k_{\rm par} & = & \frac{mg}{\Delta x_{\rm par}} \\
+  k_{\rm par} & = & \frac{mg}{\frac{1}{2} \frac{mg}{k}} \\
+  k_{\rm par} & = & 2 k
+  \end{eqnarray}
+  so we need a spring with twice the spring constant of the single spring.  The students can also reason with ``we want the same force ($mg$) to stretch the spring half of the length, so the spring constant must be doubled''.
+}
+\end{itemize}
+
+The second C-Level bullet point has them go through the same reasoning with springs in series.  Below is a quick outline of the reasoning I used with the TAs.
+
+\begin{itemize}
+\item{The amount a single spring (with constant $k$) would stretch is unchanged.  However, now we have two springs end-to-end, so they \textbf{each} stretch a distance of $mg/k$.  So,
+\begin{eqnarray}
+ \Delta x_{\rm ser} = 2 \frac{mg}{k} = 2 \Delta x
+\end{eqnarray}}
+\item{We now want a single spring with spring constant $k_{\rm ser}$ that will only stretch $\Delta x_{\rm ser}$ when the mass $m$ is hung from it.  Many students will probably go with ``it stretches twice as much for the same mass (force), so the spring constant should be half of $k$, so $k_{\rm ser} = k/2$''.  This is fine, though some time can be spent with each group getting them to see how to prove this.  Here is an example:
+  \begin{eqnarray}
+   +k_{\rm ser} \Delta x_{\rm ser} - mg & = & m a_y \\
+   k_{\rm ser} \Delta x_{\rm ser} - mg & = & m \cdot 0 \\
+   k_{\rm ser} \Delta x_{\rm ser} & = & m g \\
+   k_{\rm ser}  & = & \frac{m g}{\Delta x_{\rm ser}} \\
+   k_{\rm ser}  & = & \frac{m g}{2 \frac{mg}{k}} \\
+   k_{\rm ser}  & = & \frac{k}{2} \\
+  \end{eqnarray}
+}
+\end{itemize}
+
+\subsubsection*{OPTIONAL -- Different Spring Constants}
+
+A few intrepid students may ask how to extend these results for springs that do not have the same spring constant.  The parallel case is straightforward ($k_{\rm par} = k_1 + k_2$, and can be shown from Newton's 2nd pretty easily.  The series case is a bit different.  Here's an outline:
+
+\begin{itemize}
+  \item{First, we write the total stretch in terms of the individual stretches of springs 1 and 2:
+   \begin{equation}
+    \Delta x_{\rm ser} = \Delta x_1 + \Delta x_2 = \frac{F_{{\rm sp},1}}{k_1} + \frac{F_{{\rm sp},2}}{k_2}
+   \end{equation}
+}
+\item{Then, we write down Newton's 2nd for the effective spring:
+   \begin{eqnarray}
+       +k_{\rm ser} \Delta x_{\rm ser} - mg & = & m a_y \\
+    k_{\rm ser} \Delta x_{\rm ser} - mg & = & m \cdot 0 \\
+      k_{\rm ser} \Delta x_{\rm ser} & = & m g \\
+    k_{\rm ser}  & = & \frac{m g}{\Delta x_{\rm ser}} \\
+    k_{\rm ser}  & = & \frac{m g}{\frac{F_{{\rm sp},1}}{k_1} + \frac{F_{{\rm sp},2}}{k_2}}
+  \end{eqnarray}
+}
+ \item{At this stage, we use the equilibrium condition to assert that $F_{{\rm sp},1} = F_{{\rm sp},2} = mg$:
+   \begin{eqnarray}
+     k_{\rm ser}  & = & \frac{m g}{\frac{mg}{k_1} + \frac{mg}{k_2}} \\
+     k_{\rm ser}  & = & \frac{1}{\frac{1}{k_1} + \frac{1}{k_2}} \\
+     k_{\rm ser}  & = & \frac{1}{\frac{k_1 + k_2}{k_1 k_2}} \\
+     k_{\rm ser}  & = & \frac{k_1 k_2}{k_1 + k_2}
+   \end{eqnarray}
+   and there we have it!  For the case of $k_1 = k_2 = k$, we have $k_{\rm ser} = k/2$.
+}
+\end{itemize}
+
+
+\subsubsection*{Rubric}
+
+\begin{itemize}
+ \item{Pick a notebook at random from the group.  If the entire C-Level has not been attempted, dock 1 point from the group.}
+ \item{If the students just ``quit'' or otherwise have a bad attitude are are not staying on task, dock a point (or two) after a warning.}
+ \item{Other than these 2 things, assist the groups by asking leading questions as you see fit so they understand the C-level.  If they came prepared, worked hard, and got through the C-level, they get 4/4.}
+\end{itemize}
+
+
+\subsection*{Basic Lab (B-level)}
+
+This is pretty straightforward: students will hang masses and measure the spring constant (with uncertainty) three different ways, comparing the three different measurement methods.
+
+Some additional notes:
+
+\begin{itemize}
+\item{For the first method (``ruler and force probe'') students must plot and fit ``F vs. stretch'' in LoggerPro.  The should NOT just take a single F (``mg'') and divide by the stretch to get the spring constant.}
+\item{For the second method (motion sensor and force probe), the plot will be ``messy'' due to the same force and stretch ``points'' being measured repeatedly at each cycle as the mass oscillates.  The students may have to select a certain time region to fit to find $k$.  This should match fairly well with the first method.}
+\item{The third method (fit to a sine curve and extract the spring constant) will be the toughest for students. The tough parts:
+  \begin{itemize}
+   \item{This is the first sinusoidal fit they have done in this class.}
+   \item{They need to extract the coefficient of $t$ from inside the sine.  This is very new to them, and they typically don't pick up on it immediately.  They may need some individual coaching.}
+   \item{We have not covered oscillations yet in the text.  A note will be on the board, but they will want to look at equation 14.10 on page 450 (to relate the coefficient of $t$ to the period) and equation 14.26 on page 457 (to relate the period to the spring constant).}
+   \item{This measurement is guaranteed to disagree with the first two for one simple reason: the mass at the end is not the only object that is oscillating, the spring is as well!  If you wanted to correct for this, you would need to add 1/3 the mass of the spring to the $m$ of the hanging mass in $T = 2\pi \sqrt{m/k}$.  The students do NOT need to correct for this, it is only for instructor reference.}
+   \item{I do NOT expect the students to use the corrected formula for the period mentioned in the previous bullet.  They are expected to use (or be led to) something like the following (which will be tough for some, since we haven't discussed oscillations yet):  ``the formula for the period assumes that the mass $m$ is the only thing oscillating at the end of the spring $k$, but the rest of the spring is also oscillating (but not all at the end), so the mass used needs to be more than $m$, but less than $m + m_{\rm spring}$''}
+  \end{itemize}
+}
+\item{UNCERTAINTIES -- This can be difficult since we don't really do explicit uncertainty propagation in this class.  However, students can obtain a reasonable estimate using the following procedure:
+  \begin{itemize}
+  \item{Estimate the uncertainty $\sigma$ in a measured quantity (say $d$)}
+  \item{Compute their ``prediction'' for the tension with both $d + \sigma_d$ and $d - \sigma_d$ to get a ``high'' and ``low'' estimate for the tension.}
+  \item{Divide the range (``high'' - ``low'') by 2, this will give an estimate of the uncertainty in the tension.}
+  \item{Students can repeat if needed for other quantities (such as angles, masses, other positions, etc.)}
+  \end{itemize}}
+\end{itemize}
+
+\subsubsection*{Rubric -- Lab Summary}
+
+There should be three plots that the students submit (the ones listed in B-Level).
+
+For this lab, specifically, they should have:
+
+\begin{enumerate}
+ \item{
+  \begin{itemize}
+   \item{Some diagrams and numbers present, very minimal.}
+  \end{itemize}
+}
+ \item{
+  \begin{itemize}
+   \item{Plots present, including labels and units}
+   \item{Some uncertainties missing}
+   \item{Reported results, but no interpretation}
+  % \item{No mention of the scale used}
+  \end{itemize}
+}
+ \item{
+  \begin{itemize}
+ %  \item{Stating what scale they used}
+   \item{All uncertainties present}
+   \item{Appropriate fits (with uncertainties) present on all plot (2 linear, 1 sine)}
+ %  \item{Two methods to determine uncertainties}
+   \item{Some physics, but no explicit mention of why the linear fits were used (Hooke's law says the spring force is linear in the stretch) or why the sine was used (Eqn 14.10 says the position is a (co)sinusoidal function of time).}
+  \end{itemize}
+}
+ \item{
+  \begin{itemize}
+   \item{Explicit mention of Hooke's law and how the spring constant was obtained from the first two plots, and how the period and spring constant was obtained from the sinusoidal plot.}
+   \item{Discussion of how they obtained the uncertainties.}
+  \end{itemize}
+}
+\end{enumerate}
+
+
+\subsection*{Advanced/Extended Lab Ideas (A-level)}
+
+Students may pick a single A-level to do.  They do not need to stay with their in-class group (though many choose to).
+
+\begin{itemize}
+ \item{The first A-level suggests that they experimentally verify their C-level predictions regarding series and parallel spring combinations.  They should use the shorter springs for these.}
+ \item{The other two suggestions have the students determining the dependence of the period on the spring constant and/or the mass.  These are do-able, but both suffer from the same issue of a massive spring that the B-Level does.  A way to minimize this would be to use the shorter springs (less massive), and a somewhat larger mass, so that the spring is comparatively light.}
+\end{itemize}
+
+\subsubsection*{Rubric -- Lab Summary}
+
+Follow the rubric on page 7 of the lab manual.  Since the students can choose any A-level, I won't be writing up a detailed rubric for every suggestion.  Hopefully, the B-level rubrics included here help to establish a good guideline.  If you have further questions, please ask!
+
+\label{LastPage}
+
+\end{document}

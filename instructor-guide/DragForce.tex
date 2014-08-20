@@ -1,0 +1,143 @@
+\documentclass[fleqn,letterpaper]{article}
+\usepackage{fullpage}
+\usepackage[dvips]{graphicx}
+\usepackage{amssymb}
+\usepackage{fancyhdr}
+\usepackage[active]{srcltx}
+\addtolength{\parskip}{\baselineskip}
+\pagestyle{fancy}
+\headheight=12pt
+\parindent 0cm
+
+\begin{document}
+
+\lhead{\it Instructor's Lab Manual for Physics 160 }
+\cfoot{}
+\rhead{\it Page \thepage~of \pageref{LastPage} }
+\headsep=25pt
+%\baselineskip=12pt
+
+\section*{Drag Force}
+
+\subsection*{Additional Equipment}
+
+\begin{itemize}
+  \item{Coffee Filters and ``weights'' (paper clips and washers)}
+\end{itemize}
+
+\subsection*{Objective}
+
+NOTE:  This lab is on page 30 of the lab manual!
+
+This lab intends to build the student's skills with:
+%
+\begin{itemize}
+ \item{setting up motion detectors to conduct an experiment}
+ \item{understanding Newton's Second Law, free body diagrams, and drag}
+ \item{Obtaining uncertainties from LoggerPro from motion measurements}
+ \item{Using a fit to determine the velocity-dependence of the drag force}
+\end{itemize}
+%
+
+\subsection*{Conceptual (C-level) (Done BEFORE Lab)}
+
+The first bullet-point should be pretty straightforward for the students, though they may be confused on the wording of ``schematic diagram''.  This will be changed for next year.  What they should have is a sketch (picture) of what is happening as well as a free-body diagram for both situations.  The students DO need to worry about drag.  I am not particular about the specific notation used by the students for their forces, though some common ones are:
+
+\begin{itemize}
+ \item{$\vec{F}_g$ or $\vec{w}$ for the weight (force of gravity from the Earth on the object}
+ \item{$\vec{F}_D$ or $\vec{D}$ for the drag force}
+\end{itemize}
+
+In all cases, the weight should point straight down, while the drag force should be opposite the motion of the object.  These are the only two forces present.
+
+For the second set of bullet points, the students are asked to drop a new coffee filter and a ``wadded up'' coffee filter and produce the following:
+\begin{itemize}
+ \item{A velocity vs. time plot for each.  Both will start at $|\vec{v}| = 0$, and then speed up to some $|\vec{v}_{\rm terminal}|$.  Depending on which way the students set up their axes, the velocity may be positive or negative.  The ``new'' filter plot should have a lower terminal speed than the ``wadded up'' filter plot.}
+ \item{``Describe in words and pictures the terminal velocity of the coffee filter''.  This is a bit vague, but there are a few points we can make sure to touch on (through leading questions).
+ \begin{itemize}
+ \item{Students should be able to explain what a terminal velocity is}
+ \item{Students should be able to explain when terminal speed is reached (in this case, when the drag force equals the weight)}
+ \item{Students should be able to qualitatively explain why the ``new'' filter has a lower terminal speed than the ``wadded up'' filter (lower cross-section means it hits fewer air molecules, I like to invoke the image of a parachute opening/not or the sensation of rotating your hand while holding it out of a car window while he car is  moving)}
+ \item{Students should understand that two objects with the same mass can have different terminal velocities, even though the gravitational force $mg$ on them is the same}
+ \end{itemize}}
+\end{itemize}
+
+
+
+\subsubsection*{Rubric}
+
+\begin{itemize}
+ \item{Pick a notebook at random from the group.  If the entire C-Level has not been attempted, dock 1 point from the group.}
+ \item{If the students just ``quit'' or otherwise have a bad attitude are are not staying on task, dock a point (or two) after a warning.}
+ \item{Other than these 2 things, assist the groups by asking leading questions as you see fit so they understand the C-level.  If they came prepared, worked hard, and got through the C-level, they get 4/4.}
+\end{itemize}
+
+
+\subsection*{Basic Lab (B-level)}
+
+There is a missing equation in the B-level (where the empty box is).  The box should be replaced with $|\vec{F}_D = b |\vec{v}|^n$.  So, the sentence should read ``So given $|\vec{F}_D = b |\vec{v}|^n$ determine $n$.''
+
+This is a little bit different of a lab, as the students are figuring out what physical model (what velocity-dependence) works best for the drag force (at these cross-sections/speeds).  Students can vary the mass by adding the paper-clips or washers to the coffee=filter.  By carefully considering the region of interest in their data, students can find the terminal speed.  The drag force will just be equal to $mg$ in this situation.  Thus, they can then plot $|\vec{F}_D|$ vs $|\vec{v}_{\rm ter}|$.
+
+Some additional notes:
+
+\begin{itemize}
+\item{Students should use at least 5 different masses.  The more the better.}
+\item{Students may need to repeat a trial several times to get good position (velocity) data from the motion detector -- the coffee filters can drift off to the side sometimes.}
+\item{Remember that the motion detectors need to be a minimum distance (I believe $\sim 20$~cm) away from the object they're trying to detect in order to function correctly.}
+\end{itemize}
+
+\subsubsection*{Rubric -- Lab Summary}
+
+There should be a single plot that the students submit.
+
+For this lab, specifically, they should have:
+
+\begin{enumerate}
+ \item{
+  \begin{itemize}
+   \item{Some diagrams and numbers present, very minimal.}
+  \end{itemize}
+}
+ \item{
+  \begin{itemize}
+   \item{Plot of drag force vs. terminal velocity present, including labels and units}
+   \item{Some uncertainties missing}
+   \item{Reported results, but no interpretation}
+  % \item{No mention of the scale used}
+  \end{itemize}
+}
+ \item{
+  \begin{itemize}
+ %  \item{Stating what scale they used}
+   \item{All uncertainties present}
+   \item{Power fit present on the plot}
+ %  \item{Two methods to determine uncertainties}
+   \item{Some physics, but no explicit mention of the model used to fit the drag vs velocity plot (missing ``we expected it to be a power law since $F_D = b v^n$'')}
+  \end{itemize}
+}
+ \item{
+  \begin{itemize}
+   \item{Explicit mention of $F_D = b v^n$}
+  \end{itemize}
+}
+\end{enumerate}
+
+
+\subsection*{Advanced/Extended Lab Ideas (A-level)}
+
+Students may pick a single A-level to do.  They do not need to stay with their in-class group (though many choose to).
+
+\begin{itemize}
+ \item{The first two A-level suggestions probably need to be edited a bit more to bring them in line with the 160 students.  It's tough to do them well at this stage (for instance, explaining why they expect some other object to have a different velocity dependence in the drag force).  Feel free to guide students as you see fit for these two.}
+ \item{There will be some ``friction pads'' out that the students can use for the 3rd suggestion.  They should be able to measure this fairly easily using the force probes (and the scale to get the mass).  I would suggest adding some extra masses to the blocks/pads, so the students can have several ``trials'' for finding the coefficients.}
+ \item{Another possibility (not listed) is to investigate how the friction force depends (or doesn't!) on the contact area.  The friction pads/blocks can be used for this as well.}
+\end{itemize}
+
+\subsubsection*{Rubric -- Lab Summary}
+
+Follow the rubric on page 7 of the lab manual.  Since the students can choose any A-level, I won't be writing up a detailed rubric for every suggestion.  Hopefully, the B-level rubrics included here help to establish a good guideline.  If you have further questions, please ask!
+
+\label{LastPage}
+
+\end{document}

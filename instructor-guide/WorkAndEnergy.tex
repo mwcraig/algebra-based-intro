@@ -1,0 +1,145 @@
+\documentclass[fleqn,letterpaper]{article}
+\usepackage{fullpage}
+\usepackage[dvips]{graphicx}
+\usepackage{amssymb}
+\usepackage{fancyhdr}
+\usepackage[active]{srcltx}
+\addtolength{\parskip}{\baselineskip}
+\pagestyle{fancy}
+\headheight=12pt
+\parindent 0cm
+
+\begin{document}
+
+\lhead{\it Instructor's Lab Manual for Physics 160 }
+\cfoot{}
+\rhead{\it Page \thepage~of \pageref{LastPage} }
+\headsep=25pt
+%\baselineskip=12pt
+
+\section*{Work and Energy}
+
+\subsection*{Additional Equipment}
+
+\begin{itemize}
+  \item{No extra equipment (other than brackets to attach the motion detectors) is needed for B-Level}
+  \item{Springs, pulleys, string, and stands have been set out by Dana for the A-Level}
+\end{itemize}
+
+\subsection*{Objective}
+
+This lab intends to build the student's skills with:
+%
+\begin{itemize}
+ \item{Work:  $W = |\vec{F}|  |\vec{d}|  \cos \theta$, also the area under the Force vs. distance curve}
+ \item{Kinetic Energy:  $K = 1/2 m v^2$}
+ \item{Gravitational Potential Energy:  $U_g = mgy$ }
+ \item{Spring (Elastic) Potential Energy:  $U_{\rm sp} = 1/2 k (\Delta x)^2$}
+ \item{Work-Energy Theorem:  $\Delta E_{\rm system} = W_{\rm external}$}
+ \item{Comparing measurements using uncertainties}
+\end{itemize}
+%
+
+\subsection*{Conceptual (C-level) (Done BEFORE Lab)}
+
+The intent of the C-Level is to give the students practice with conceptual ideas of work, energy, and energy conservation.  The last bullet point also sets them up for something they'll need in B-Level.
+
+\begin{itemize}
+ \item{On the first bullet point, ``schematic diagram'' should read ``free-body diagram''.  They should have 2, one during the push (with the ``push force'' in addition to the weight, normal, and possibly friction if they choose to include it) and one after the push.}
+ \item{For the second bullet point:
+ \begin{itemize}
+ \item{the total energy should rise up from zero to some fixed number (this is from the work done by the external push), and stay there.}
+ \item{the kinetic energy should start at zero, rise up with the total energy, drop off to zero as the cart turns around, and then rise back up to the total energy as the cart arrives back where it started.}
+ \item{the gravitational potential energy should start at 0, then rise to the total energy when the kinetic energy is zero, then go back down to zero when the cart arrives back where it started.}
+ \item{At all points after the push, the kinetic plus potential energies should equal the total.}
+ \item{When asking students about this, they may talk about ``Conservation of Energy'', which is good, but we want them to JUSTIFY this.  This involves at a minimum 2 things: a choice of system (cart and Earth) as well as $W_{\rm ext} = 0$ (since the Normal force is perpendicular to the displacement).  It is critical to emphasize that energy conservation depends on the choice of system.}
+ \end{itemize}}
+ \item{For the third bullet point, we're just looking for $U_g = mgy = mgx\sin \theta$, where $x$ is the distance along the track and $\theta$ is the angle the track makes with the horizontal.}
+ \end{itemize}
+
+\subsubsection*{Rubric}
+
+\begin{itemize}
+ \item{Pick a notebook at random from the group.  If the entire C-Level has not been attempted, dock 1 point from the group.}
+ \item{If the students just ``quit'' or otherwise have a bad attitude are are not staying on task, dock a point (or two) after a warning.}
+ \item{Other than these 2 things, assist the groups by asking leading questions as you see fit so they understand the C-level.  If they came prepared, worked hard, and got through the C-level, they get 4/4.}
+\end{itemize}
+
+
+\subsection*{Basic Lab (B-level)}
+
+I anticipate this taking up the majority of the time.  Judging from last year, the difficulty will be getting the students to make the plots of kinetic, gravitational potential, and total energy.
+
+Some additional notes:
+
+\begin{itemize}
+\item{I'll put some guidance on the board (and add it to the next version of the manual), but I would suggest that the students add the cart mass (with force probe) and angle of the ramp as parameters to LoggerPro (in ``User Parameters'' in one of the menus).  They can then use these in their calculated columns, and change them in ONE PLACE if they made a mistake (much like fixing a variable in some code).}
+\item{There are a lot of ways to measure the angle of the ramp.  Probably the most accurate is to measure the acceleration of the cart down the ramp (which should be $g \sin \theta$ to the extent friction can be neglected), and then divide by $g$, giving $\sin \theta$.}
+\item{Depending on how the students have the motion detector set up, they may need to ``reverse direction'' to make ``towards'' the detector the positive direction.  To check if they have it set up correctly, their gravitational potential energy should increase as the cart moves up the ramp.}
+\item{Bafflingly enough, their text doesn't talk about Work as the area under the Force vs Distance curve.  I'll put a note on the board.  Just wanted you to be aware that they have not seen that before (though they have seen $W = |\vec{F}| |\vec{d}| \cos \theta$, and we can make an analogy with impulse.}
+\end{itemize}
+
+\subsubsection*{Rubric -- Lab Summary}
+
+There should be two plots that the students submit (Energies vs. time, and Force vs. Distance).
+
+For this lab, specifically, they should have:
+
+\begin{enumerate}
+ \item{
+  \begin{itemize}
+   \item{Some diagrams and numbers present, very minimal.}
+  \end{itemize}
+}
+ \item{
+  \begin{itemize}
+   \item{Plot present showing the total, kinetic, and gravitational energies vs time, as well as a second plot showing Force vs. Distance.}
+   \item{Some uncertainties missing}
+   \item{Reported results, but no interpretation}
+  % \item{No mention of the scale used}
+  \end{itemize}
+}
+ \item{
+  \begin{itemize}
+ %  \item{Stating what scale they used}
+   \item{Interpreted results (``Our results indicate that the work done on the cart is equal to the change in energy'', etc.}
+   \item{All uncertainties present (and used in their comparisons/interpretations)}
+   \item{Some physics (such as what they used for $K$, $U_g$), but no explicit mention of the work-energy theorem.}
+  \end{itemize}
+}
+ \item{
+  \begin{itemize}
+   \item{Explicit mention of $\Delta E_{\rm system} = W_{\rm external}$.  They will likely write it as $\Delta E = W$, which is fine.}
+   \item{Discussion of how they obtained the uncertainties.}
+  \end{itemize}
+}
+\end{enumerate}
+
+
+\subsection*{Advanced/Extended Lab Ideas (A-level)}
+
+The A-Level suggests two different experiments, each relating to work and energy.
+
+A few notes:
+
+\begin{itemize}
+ \item{The first suggestion has the students attempt to lift a mass by exerting a force that is 1/4 the object's gravitational weight.  The students should use a pulley system to accomplish this.  The idea is to show that while it is possible to set up a pulley system such that the force you need to exert to lift the object is small, the energy needed to lift the object by a certain height remains the same.  They should be able to measure the displacements involved to verify that the work done is equal to the change in gravitational potential energy.}
+ \item{The second bullet point has the students extend the B-Level by adding a spring to their setup.  A few notes:
+  \begin{itemize}
+  \item{Students shouldn't use too stiff of a spring, otherwise the cart will not oscillate}
+  \item{Students will need to measure the spring constant.  It would be best for them to measure it by hanging various masses vertically from the spring and plotting $F_{\rm sp}$ vs $\Delta x$}
+  \item{Most of the springs we have do NOT rest at their ``unstretched'' lengths.  This is because the coils of the spring get in the way of the spring contracting back to the unstretched length.}
+  \item{Since the springs do not rest at their ``unstretched'' length, students must be very careful when computing the spring potential energy, $U_{\rm sp} = 1/2 k \Delta x^2$.  The $\Delta x$ is the stretch (or compression) of the spring from the unstretched length, NOT the rest length of our physical springs.}
+  \item{To correctly measure/compute $\Delta x$ students need to take the lenght the spring is stretched from rest (say 1~cm) and add to it the ``extra stretch'' inherent in the spring.  To find this ``extra stretch'', students can use their $F_{\rm sp}$ vs $\Delta x$ plot, and look at the x-intercept when $F_{\rm sp} = 0$ according to their fit (this is why they should find $k$ this way, it's also why in the previous lab they couldn't simply take $F_{\rm sp}/\Delta x$ for each data point to find $k$)}.
+  \item{Total energy should be conserved, aside from some slow (but visible) losses due to friction.}6
+  \end{itemize}}
+ \item{As usual, if the students propose something and you feel it is appropriate, let them go for it!}
+\end{itemize}
+
+\subsubsection*{Rubric -- Lab Summary}
+
+Follow the rubric on page 7 of the lab manual.  Since the students can choose any A-level, I won't be writing up a detailed rubric for every suggestion.  Hopefully, the B-level rubrics included here help to establish a good guideline.  If you have further questions, please ask!
+
+\label{LastPage}
+
+\end{document}

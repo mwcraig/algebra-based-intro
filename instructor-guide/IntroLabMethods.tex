@@ -1,0 +1,102 @@
+\documentclass[fleqn,letterpaper]{article}
+\usepackage{fullpage}
+\usepackage[dvips]{graphicx}
+\usepackage{amssymb}
+\usepackage{fancyhdr}
+\usepackage[active]{srcltx}
+\addtolength{\parskip}{\baselineskip}
+\pagestyle{fancy}
+\headheight=12pt
+\parindent 0cm
+
+\begin{document}
+
+\lhead{\it Instructor's Lab Manual for Physics 160 }
+\cfoot{}
+\rhead{\it Page \thepage~of \pageref{LastPage} }
+\headsep=25pt
+%\baselineskip=12pt
+
+\section*{Introduction to Lab Methods -- Forensic Anthropology}
+
+\subsection*{Additional Equipment}
+
+\begin{itemize}
+  \item{LoggerPro reference manual is on D2L}
+\end{itemize}
+
+\subsection*{Objective}
+
+The first goal of the lab is to familiarize students with using LoggerPro, specifically manually entering data, plotting, and error bars.  The second is to introduce students to the idea of ``significantly different'' using uncertainties.
+
+\subsection*{Conceptual (C-level) (Done BEFORE Lab)}
+
+Things to look out for:
+
+\begin{itemize}
+ \item{Students have a hard time with significant figures, particularly with leading and trailing zeros.}
+ \item{Students are not used to using ``significantly different'' with a precise meaning.  As mentioned in Rule 2, we will use ``more than three error bars apart'' as the standard of ``significantly different''.}
+ \item{We want the students to recognize that the same two numbers (say 7.21 and 7.29) can be either significantly different or not significantly different \textit{depending on their uncertainties}.}
+ \item{$7.21 \pm 0.01$~m and $7.29 \pm 0.01$~m are $\sim8$ error bars apart, so they are significantly different}
+ \item{$0.25 \pm 0.12$~m and $0.45 \pm 0.02$~m are $\sim 2$ error bars apart, so they are not significantly different}
+ \item{We have not yet introduced uncertainty propagation (for example when subtracting the two numbers in the examples above).  Students do not need to have done this at this stage.}
+ \item{Students may need help realizing that the standard deviation gives the uncertainty in the average of a measurement (when using the force probes).}
+\end{itemize}
+
+\subsubsection*{Rubric}
+
+\begin{itemize}
+ \item{Pick a notebook at random from the group.  If the entire C-Level has not been attempted, dock 1 point from the group.}
+ \item{If the students just ``quit'' or otherwise have a bad attitude are are not staying on task, dock a point (or two) after a warning.}
+ \item{Other than these 2 things, assist the groups by asking leading questions as you see fit so they understand the C-level.  If they came prepared, worked hard, and got through the C-level, they get 4/4.}
+\end{itemize}
+
+
+\subsection*{Basic Lab (B-level)}
+
+To give students practice applying the ideas of uncertainty, we've introduced a lab where they will measure the length of their femur (with a meter stick), their height (with a meter stick), and compare their measured height with the ``predicted'' height from the model given in the table on page 11.
+
+Things to look out for during lab:
+
+\begin{itemize}
+\item{Make sure the students are using LoggerPro and NOT Excel to make the plot!  They may resist, but tell them that it is much easier to get uncertainties out of LoggerPro than Excel, which is why we use it. (Well, that's why I use it).}
+\item{Students may need help with creating columns.  Feel free to grab a representative from each lab group and show them all at once, then have them return to their lab groups with the information (there is some minor instruction on page 13 of the LoggerPro manual, but it's very short on details).}
+\item{When asking if the predicted heights ``agree'' with measured heights, they are comparing the two sets of data points.  Thus, some pairs may agree, and others may not.  This is fine.}
+\item{We want to emphasize using ``Curve Fit'' rather than ``Linear Fit'', as LoggerPro hides the uncertainties in the parameters of ``Linear Fit'' by default.  Additionally, having the students choose from the options in ``Curve Fit'' makes them think about the modeling choice they are making.  Here, they should choose the Linear model inside ``Curve Fit''.}
+\item{By comparing the fit values ($\pm$ uncertainty) with the ones in the model in each table, the students can see if they ``agree'' (are within three error bars).}
+\item{Male and female measurements need to be analyzed separately since they generally have different proportions, and thus are modeled differently.}
+\item{Many bones helps reduce the uncertainty in the estimated height (better average is produced)}
+\end{itemize}
+
+\subsubsection*{Rubric -- Lab Summary}
+
+This rubric applies to the lab summary the students will hand in at the beginning of the following lab (one per lab group).  Page 3 has a description of what a good lab summary contains, and there are generic rubrics found in the front of the lab manual.  For this lab, specifically, they should have:
+
+\begin{itemize}
+ \item{2 plots, height vs. femur length, 1 for males and 1 for females}
+ \item{All data points should have both vertical and horizontal uncertainties}
+ \item{There should be a 2 fit lines, one each for the male and female measured heights}
+ \item{The plots should have their axes labeled, with units.}
+ \item{Their summary should state that they plotted height vs femur length (found by measuring with a meter stick).}
+ \item{The should state that the plot shows that as the femur length increases, so does the height.}
+ \item{They should state that they expect there to be a linear relationship, given by the models in the tables}
+ \item{They should compare their fit values (slope and intercept) with the values from the model, and see if they agree within uncertainty}
+\end{itemize}
+
+\begin{center}
+\begin{tabular}{|c|l|} \hline \hline
+1 & Missing 1 or more data sets \\ \hline
+2 & Missing 1 set of uncertainties, no discussion of plots \\ \hline
+3 & All plot elements present, no discussion of linear model\\ \hline
+4 & All elements present with discussion and comparison of fitted values \\  \hline \hline
+\end{tabular}
+\end{center}
+
+
+\subsection*{Advanced/Extended Lab Ideas (A-level)}
+
+This week's lab is just a single day, so there is no A-level.  Only B-Level and C-Level are graded for this lab.
+
+\label{LastPage}
+
+\end{document}
