@@ -21,6 +21,10 @@ Physics Concepts
 
 ## Conceptual (C-Level) DONE BEFORE LAB
 
+**Answer the questions in D2L/Sapling before lab: look for assignment "Pre-Lab 11"**
+ 
+**The questions you will be asked online are also below for your convenience:**
+
 A crane is equipped with many safety features, such as radar to locate the position of the hook and a sensor to monitor the tension in the support wire. The designers want to program the tension sensor to anticipate the tension given the load on the crane and the distance from the mast.
 
 - Draw a force diagram for the simplified crane model. Discuss this in your report.

@@ -29,15 +29,8 @@ Physics Concepts
 
 ## Conceptual (C-Level) DONE BEFORE LAB
 
-Suppose you wish to produce the greatest force on an object. You can throw either a bouncy ball or a non-bouncy (clay) ball. Each ball has the same mass, would interact with the object for the same amount of time, and you can throw them with the same speed.
-
-- Using ideas of impulse and momentum, mathematically prove which ball produces the greatest force on the object (no plugging in numbers!).
-
-Newton's Cradle is a toy you might have seen. It is a wooden rectangular box frame with multiple steel balls suspended next to each other in the middle such that they are free to swing horizontally.
-
-![Newton's cradle](newtons-cradle.png)
-
-- Suppose you have 5 steel balls suspended in the middle. If you pick 3 balls up and release them, what will happen? Why?
+**Answer the questions in D2L/Sapling before lab: look for assignment "Pre-Lab 8"**
+ 
 
 ## Basic Lab (B-level)
 

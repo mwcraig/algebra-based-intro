@@ -26,21 +26,8 @@ Physics Concepts
 
 This week's lab is more of a "group modeling exercise" rather than a traditional lab. The focus is on estimation and modeling assumptions to arrive at a reasonable answer.
 
-Humans need energy (we call it "food") to survive, and this energy has to come from somewhere. 
-
-- Use an online calorie calculator (such as the one at http://www.calculator.net/calorie-calculator.html ) to estimate your daily caloric need and:
-    - record this number in your lab notebook
-    - convert the number to Joules (really Joules / day)
-
-Let's assume we have a technologically advanced device that can convert, with 100% efficiency, solar energy into your caloric energy. Find how much area you need to absorb the solar energy by:
-
-- Looking up the term "insolation" (it's NOT the stuff that keeps your house warm), and finding a typical insolation value for the United States.
-- Use the insolation value you found, along with your daily Caloric requirements, to find the area (in square-meters) needed by our technologically advanced device to convert enough solar energy to keep you "fed". Record this number in your lab notebook.
-
-In preparation for B-Level, look up (using a textbook / journal article / good internet source):
-
-- A typical value for the efficiency of photosynthesis for converting sunlight into biomass
-- The term "trophic level", and "the 10% rule", and describe them
+**Answer the questions in D2L/Sapling before lab: look for assignment "Pre-Lab 12"**
+ 
 
 ## Basic Lab (B-level)
 

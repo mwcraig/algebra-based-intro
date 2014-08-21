@@ -25,17 +25,8 @@ Physics Concepts
 
 ## Conceptual (C-Level) DONE BEFORE LAB
 
-You and a friend are tossing an object back and forth.
-
-- Draw a schematic diagram with the forces labeled 
-    - right after the object is thrown
-    - when the object is at the top of it trajectory
-    - right before the object is caught
-
-Drop a (new) coffee filter and another that is wadded into a tight ball.
-
-- Draw the velocity vs time graph for both coffee filters.
-- Describe in words and pictures the terminal velocity of the coffee filter.
+**Answer the questions in D2L/Sapling before lab: look for assignment "Pre-Lab 6"**
+ 
 
 ## Basic Lab (B-level)
 

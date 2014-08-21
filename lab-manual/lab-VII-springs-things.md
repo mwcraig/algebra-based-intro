@@ -36,13 +36,8 @@ Physics Concepts
 
 ## Conceptual (C-Level) DONE BEFORE LAB
 
-You are given two identical springs (with spring constant k) and a mass (m).
-
-- Imagine that both springs are attached to the mass side-by-side ("in parallel"), and the springs are attached to the ceiling with the mass hanging from them.
-    - Draw a schematic diagram of the forces acting on the mass (don't forget labels!).
-    - How much would each spring stretch? Write your answer as a number times how far the mass would stretch a single spring supporting its weight.
-    - If you wanted to replace your two-spring combination with a single spring that stretched the same amount, how would the spring constant of your new spring compare with the spring constant of one of the original springs?
-- Repeat the previous steps, but this time for the case where the springs are attached end-to-end ("in series") to the block and hung from the ceiling.
+**Answer the questions in D2L/Sapling before lab: look for assignment "Pre-Lab 10"**
+ 
 
 ## Basic Lab (B-level)
 
