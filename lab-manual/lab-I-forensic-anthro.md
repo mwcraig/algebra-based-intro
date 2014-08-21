@@ -1,11 +1,11 @@
 # Introduction to Lab Methods – Forensic Anthropology
 
-### Additional Equipment
+## Additional Equipment
 
 - Logger Pro Manual
 - Meter sticks
 
-### Objectives
+## Objectives
 
 Become familiar with the following equipment and methods:
 
@@ -13,7 +13,7 @@ Become familiar with the following equipment and methods:
 - Logger Pro, the computer software we will be using throughout the semester
 - Measurements and error calculations expected 
 
-### Topics:
+## Topics:
 
 - ABC Lab structure
     - Expectations
@@ -37,7 +37,7 @@ Become familiar with the following equipment and methods:
     - Measuring increments smaller than your instrument can
     - Plots and "good" experiments
 
-### Conceptual (C-level) DONE BEFORE LAB: Uncertainty/Error and "Significantly Different"
+## Conceptual (C-level) DONE BEFORE LAB: Uncertainty/Error and "Significantly Different"
 
 The best value and uncertainty are often written together in the following way: Best value ± uncertainty
 
@@ -67,7 +67,7 @@ When reporting best values and uncertainties, we will agree to use a slightly ar
 
 **Answer the questions in D2L/Sapling before lab: look for assignment "Pre-Lab 1"**
 
-### Basic Lab (B-level): Putting it all together: Forensic Anthropology – Bone length
+## Basic Lab (B-level): Putting it all together: Forensic Anthropology – Bone length
 
 **Uncertainty in sensor measurements – DONE IN LAB**
 
@@ -85,9 +85,8 @@ Create a plot in LoggerPro (NOT Excel!) of your measured femur lengths vs measur
 - Why do male and female measurements need to be analyzed separately?
 - Why should a forensic anthropologist use more than one bone (if possible) to determine the height of an individual?
 
-![Table for femur data](anthro-lab-table.png)
+![Table for femur data](anthro-lab-table.pdf)
 
-&copy; 2010--2014 Steve Lindaas, John Buncher and Sara Schultz
 
 \eject
 
