@@ -27,11 +27,8 @@ Physics Concepts
 
 ## Conceptual (C-Level) DONE BEFORE LAB
 
-Draw a picture of a cart that is given a brief push so it travels up and then down an inclined track.
-
-- Draw a schematic diagram with the forces labeled during and after the push
-- Sketch plots of the kinetic, gravitational potential, and total energies of the cart as functions of time for the time period after the push.
-- Find an equation for the change in gravitational energy as a function of the distance the cart has traveled along the track. HINT: first find the height of the car as a function of the distance it has moved along the track.
+**Answer the questions in D2L/Sapling before lab: look for assignment "Pre-Lab 7"**
+ 
 
 ## Basic Lab (B-level)
 

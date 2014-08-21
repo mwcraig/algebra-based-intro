@@ -27,17 +27,15 @@ Physics Concepts
 
 ## Conceptual (C-Level) DONE BEFORE LAB
 
-- Draw a picture of a cart traveling down an inclined track.
-- Draw a schematic diagram labeling the forces on the cart
-- Draw a picture of a cart traveling along a flat track being pulled by a string (force)
-- Draw a schematic diagram labeling the forces on the cart
+**Answer the questions in D2L/Sapling before lab: look for assignment "Pre-Lab 5"**
+ 
 
-Explorations:
+**Explorations (part in lab, part in Sapling):**
 
 - Imagine you are on a cart being pulled. You have hold of one end of the rope and your friend (the puller) is holding the other end of the rope.
     - You are stationary (you have your feet down). Is the force you exert on the rope greater than, less than or equal to your friend's force?
     - You are moving (you lifted your feet off the ground). Is the force you exert on the rope greater than, less than or equal to your friend's force?
-    - (Do DURING Lab) Set up and calibrate the force sensors to check your answers.
+    - **(Do DURING Lab)** Set up and calibrate the force sensors to check your answers.
 
 ## Basic Lab (B-level)
 

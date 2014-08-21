@@ -27,11 +27,8 @@ Physics Concepts
 
 Larger animals, for excellent (physics!) reasons, have proportionally thicker bones than smaller animals. This goal of this lab is to help you understand why that is.
 
-- Imagine that every dimension (length, width, and height) of an animal is doubled. How much would the force on one of the animal's legs (while standing at rest) increase by? HINT: Think of how the mass relates to the volume.
-- If the bones scaled in the same way (length, width, and height are doubled), how much does the cross-sectional area of the bone increase by?
-- Using your two previous answers, find how much the stress on the bone increases by when all of the dimensions of the animal are doubled
-    - What if the animal's size is scaled up by 100 (such as from a mouse to an elephant)?
-    - Why is this type of scaling problematic?
+**Answer the questions in D2L/Sapling before lab: look for assignment "Pre-Lab 9"**
+ 
 
 ## Basic Lab (B-Level)
 
