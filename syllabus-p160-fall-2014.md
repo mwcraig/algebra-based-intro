@@ -2,12 +2,10 @@
 
 **Instructors:**
 
-+ Dr. Matthew Craig
-    + Lecture and Lab 12-1:15 T/Th
++ Dr. Matthew Craig (Lecture 10-10:50 MWF and Lab 12-1:15 T/Th)
     + mcraig@mnstate.edu, (218) 477-2439, Hagen 307F
     + Schedule (including office hours): http://physics.mnstate.edu/craig
-+ Dr. Juan Cabanela
-    + Lab 1:30-2:15 T/Th
++ Dr. Juan Cabanela (Lab 1:30-2:15 T/Th)
     + cabanela@mnstate.edu, (218) 477-2453, Hagen 307B
     + Schedule (including office hours): http://schedule.cabanela.com
 
@@ -18,7 +16,7 @@
 
 **Course description:**  Concepts and principles of elementary physics presented in a guided activity-based format which integrates lecture and laboratory using cooperative group learning techniques. Includes kinematics and mechanics. MnTC Goal 3.
 
-**Prerequisites:**  MATH 143 and MATH 127; OR MATH 143; OR MATH 142
+**Prerequisites:**  MATH 143 and MATH 127; OR MATH 142
 
 **Required materials:**
 
@@ -52,13 +50,17 @@ Homework | Labs | Exam Practice Problems | Exam In-class (3) | Final
 
 + **Homework:** All homework will be online, and due EVERY TUESDAY at 11:55PM. Log in to the course D2L page, navigate to content, then Homework, and you will see the link that takes you to the homework.
 + **Labs:** There are three graded parts to each lab. They are summarized below with full details available in D2L.
+    + **You must attend a lab** to get credit for any work related to the lab, including the online C-level pre-lab quiz.
     + C-level: (70% of score on a lab) Online pre-lab, due EVERY MONDAY at 8PM, that must be completed online. If you do not complete the quiz you will not be permitted to enter the lab room until you have completed the pre-lab, and attendance at and participation in, the lab.
     + B-level: (20% of score on a lab) One page Word/PDF write-up, due EVERY MONDAY at 8PM in D2L dropbox; only one lab is submitted per group.
-    + A-level: (10% of score on a lab) One page summary given to your lab instructor no later than one week after the lab is completed.
+    + A-level: (10% of score on a lab) One page Word/PDF write-up, due EVERY MONDAY at 8PM in D2L dropbox; only one lab is submitted per group.
     + **You must attend a lab** to get credit for any work related to the lab, including the online C-level pre-lab quiz.
+
+\eject
+
 + **Exams:**
     + There will be three exams during the semester and a final. Dates are on the attached schedule. Each of these exams has equal weight. The final *will be cumulative*.
-    + A practice exam problem is due EVERY FRIDAY AT THE BEGINNING OF LECTURE on the problem solving sheets on the course web site. These problems are about the same level of difficulty as the work questions on the exams will be. You will get detailed feedback on your work the Monday after you turn in the problem.
+    + A **practice exam problem** is due EVERY FRIDAY AT THE BEGINNING OF LECTURE on the problem solving sheets on the course web site. These problems are about the same level of difficulty as the work questions on the exams will be. You will get detailed feedback on your work the Monday after you turn in the problem.
 
 **How letter grades will be assigned:**
 
